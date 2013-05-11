@@ -1,0 +1,798 @@
+@charset "UTF-8";
+
+
+
+/** YUI RESET
+------------------------------*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6,h7 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+
+
+/** PAGE STYLES
+------------------------------*/
+
+
+body {
+	background-color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+	
+.section {
+	width: 100%;
+}
+
+.shadow {
+
+}
+
+.section-inner {
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+.anchor {
+}
+
+
+.key-features {
+	width:240px;
+	height:136px;
+	margin: 0 auto 0 auto;
+}
+
+
+h1 {
+	font-size: 36px;
+	margin: 0 0 6px 0px;
+	text-align: center;
+	padding-top: 32px;
+	color: #20297A;
+}
+
+
+h2 {
+	font-size: 22px;
+	margin: 0 0 6px 0;
+	color:#20297A;
+}
+
+
+h3 {
+	font-size: 20px;
+	margin: 0 0 5px 0;
+	color: #20297A;
+}
+
+h4 {
+	font-size: 19px;
+	color: #20297A;
+	margin: 0 0 0 0px;
+}
+
+
+h5 {
+	font-size: 13px;
+}
+
+.scroll-top {
+	padding-top: 71px;
+}
+
+a, a:link, a:visited, a:active {
+	color:#000000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.trade {
+	font-size: 9px;
+	font-weight: normal;
+	vertical-align: top;	
+}
+
+
+/** NAVIGATION
+------------------------------*/
+
+
+#navigation {
+	background-image:url(../images/nav-bg.png);
+	background-position:top center;
+	background-repeat:repeat-x;
+	height: 85px;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:8000;
+}
+
+#navigation ul li {
+	display:inline;
+	float: left;
+}
+
+.menu-item a {
+	height: 71px;
+	line-height: 71px;
+	background-image:url(../images/navigation.png);
+	text-indent: -9999px;
+	display:block;
+}
+	
+.menu-home a {
+	width: 248px;
+}
+	
+.menu-how a {
+	width: 136px;
+	background-position: -248px 0px;
+}
+	
+.menu-how a.link-active {
+	background-position: -248px -142px !important;
+}
+
+.menu-how a:hover {
+	background-position: -248px -71px !important;
+}
+		
+.menu-features a {
+	width: 138px;
+	background-position: -384px 0px;
+}
+
+.menu-features a.link-active {
+	background-position: -384px -142px !important;
+}
+
+.menu-features a:hover {
+	background-position: -384px -71px !important;
+}
+		
+.menu-why a {
+	width: 138px;
+	background-position: -522px 0px;
+}
+
+.menu-why a.link-active {
+	background-position: -522px -142px !important;
+}
+
+.menu-why a:hover {
+	background-position: -522px -71px !important;
+}
+			
+.menu-support a {
+	width: 138px;
+	background-position: -660px 0px;
+}
+
+.menu-support a.link-active {
+	background-position: -660px -142px !important;
+}
+
+.menu-support a:hover {
+	background-position: -660px -71px !important;
+}	
+	
+.menu-store a {
+	width: 162px;
+	background-position: -798px 0px;
+}
+
+.menu-store a:hover {
+	background-position: -798px -71px;
+}
+
+
+
+
+/** HERO
+------------------------------*/
+
+#hero {
+	background-image:url(../images/bg-hero.png);
+	background-position: center bottom;
+	background-repeat:repeat-x;
+	height: 492px;
+	padding-top: 71px;
+}
+
+
+.bar-image {
+	background-image:url(../images/bg-hero-1.2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 492px;
+}
+
+
+#hero h4 {
+	text-align:center;
+	color: #737577;
+}
+
+.bar-image h1  {
+	padding-right: 500px;
+	padding-top: 140px;
+}
+
+.bar-image h4  {
+	padding-right: 500px;
+}
+
+.herobuttons {
+	width: 460px; 
+	height: 200px;
+}
+
+.herobuttons .centerbuttons {
+	margin-left: auto;
+	margin-right: auto;
+	width: 243px;
+	height: 69px;
+}
+
+
+.watch-button {
+	float: left;
+	width: 104px;
+	height: 69px;
+}
+
+.watch-button a, .watch-button a:visited {
+	background-image:url(../images/button-watch-01.png);
+	text-indent: -9999px;
+	display: block;
+	height: 69px;
+	margin-top: 7px;
+}
+
+.watch-button a:hover {
+	background-position: 0 -69px;
+	margin-top: 7px;
+}
+
+.buy-button {
+	float: left;
+	width: 119px;
+	height: 69px;
+	margin-left: 20px;
+}
+
+.buy-button a, .buy-button a:visited {
+	background-image:url(../images/button-buy.png);
+	text-indent: -9999px;
+	display: block;
+	height: 69px;
+	margin-top: 7px;
+}
+
+.buy-button a:hover {
+	background-position: 0 -69px;
+	margin-top: 7px;
+}
+
+
+
+
+
+/** KEY FEATURES
+------------------------------*/
+
+#key-features {
+	background-image:url(../images/bg-checkboxes.png);
+	background-repeat:repeat-x;
+	height: 71px;
+}
+
+.bicepscurldude {
+	background-image:url(../images/bicepscurldude.png);
+	background-position: left top;
+	background-repeat:no-repeat;
+	width: 106px;
+	height: 71px;
+	float: left;
+}
+
+#key-features .module {
+	width: 194px;
+	float: left;
+	height: 71px;
+	overflow: hidden;
+}
+#key-features .module-inner {
+	padding-left: 50px;
+	padding-top: 12px;
+}
+
+#key-features .module h2 {
+	font-size: 18px;
+	margin: 0 0 3px 0;
+}
+
+#key-features .module p {
+	font-size: 11px;
+}
+
+.tickbox {
+	background-image:url(../images/tickbox.png);
+	background-position: left 10px;
+	background-repeat:no-repeat;
+}
+
+
+/** HOW IT WORKS
+------------------------------*/
+
+#how .module {
+	width: 240px;
+	float: left;
+	height: 136px;
+	overflow: hidden;
+}
+#how .module-inner {
+	padding-left: 110px;
+	padding-top: 12px;
+}
+
+#how .module h2 {
+	font-size: 22px;
+	margin: 0 0 6px 0;
+}
+
+#how .module p {
+	font-size: 13px;
+}
+
+
+#how {
+	background-image:url(../images/bg-mesh.png);
+	height: 764px;
+}
+
+#how h1 {
+	padding-bottom: 32px;
+}
+
+#how .shadow {
+	background-image:url(../images/shadow.png);
+	background-position: left top;
+	background-repeat:repeat-x;
+	width: 100%;
+}
+
+#how .how-wrapper {
+	background-image:url(../images/phone-iphone5-v2.png);
+	background-position: left top;
+	background-repeat:no-repeat;
+	height: 660px; 
+	width:960px;
+	position:relative;
+
+}
+
+.video-wrapper {
+	top: 88px;
+	left: 360px;
+	height: 365px; 
+	width:243px;
+	position: absolute;
+
+}
+
+
+.how-grad {
+	background-image:url(../images/how-grad.png);
+	background-position: left top;
+	width: 1px;
+	height:14px;
+	background-repeat:repeat-x;
+}
+
+
+#how .module {
+	position: absolute;
+	width: 300px;
+}
+
+.module-1 {
+	top: 136px;
+	left: 29px;
+}
+
+
+.module-2 {
+	top: 266px;
+	left: 29px;
+}
+
+
+.module-3 {
+	top: 398px;
+	left: 29px;
+}
+
+
+.module-4 {
+	top: 136px;
+	right: 20px;
+}
+
+
+.module-5 {
+	top: 266px;
+	right: 20px;
+}
+
+
+.module-6 {
+	top: 398px;
+	right: 20px;
+}
+
+
+/** WHY KEEP A GYM LOG?
+------------------------------*/
+
+#why {
+	background-image:url(../images/bg-full-page.png);
+	background-position: center -1456px;
+	background-repeat:repeat-x;
+	height: 445px;
+}
+
+
+
+.gym {
+	background-image:url(../images/bg-why.jpg);
+	background-position: left top;
+	background-repeat:no-repeat;
+	height: 445px;
+}
+
+
+#why h2 {
+	padding: 0px 0px 10px;
+}
+
+
+#why p {
+	padding: 0px 0px 10px;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+#why .column-wrapper {
+	padding: 40px 0 0 310px;
+}
+
+.content-left, .content-right {
+	float: left;
+	width: 310px;
+}
+
+.content-right {
+	margin-left: 30px;
+}
+
+
+.watch-button-2 {
+	float: left;
+	width: 122px;
+	height: 46px;
+}
+
+.watch-button-2 a, .watch-button-2 a:visited {
+	background-image:url(../images/button-watch-02.png);
+	text-indent: -9999px;
+	display: block;
+	height: 30px;
+	margin-top: 7px;
+}
+
+.watch-button-2 a:hover {
+	background-position: 0 -30px;
+	margin-top: 7px;
+}
+
+
+
+/** SCREEENSHOTS
+------------------------------*/
+
+.screenshots {
+	background-image:url(../images/bg-screen.png);
+	background-position:center bottom;
+	background-repeat:repeat-x;
+	background-color: #ffffff;
+}
+
+.screenshots .section-inner {
+	background-image:url(../images/bg-screen-shadow.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	padding-top: 40px;
+}
+
+.screen {
+
+	padding: 0;
+	float: left;
+	padding: 10px 4px;
+}
+
+
+.screenshots .first {
+	margin-left: 3px;
+}
+
+.screenshots .first-second-row {
+	margin-left: 24px;
+}
+
+.screenshots p {
+	text-align:center;
+	color:#aaaaaa;
+	margin: 10px 0;
+	font-size: 14px;
+}
+
+.screenshots #screen-chart {
+	width: 268px;
+	height: 151px;
+}
+
+.screenshots a {
+	width: 151px;
+	height: 259px;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+    -moz-box-shadow: 0px 0px 5px #888;
+    -webkit-box-shadow: 0px 0px 5px #888;
+    box-shadow: 0px 0px 5px #888;
+}
+
+#screen-home {
+	background-image: url(../images/screen1-home-iphone5.png);
+	background-repeat: no-repeat;
+}
+
+#screen-workout {
+	background-image: url(../images/screen2-workout-iphone5.png);
+	background-repeat: no-repeat;
+}
+
+#screen-supersets {
+	background-image: url(../images/screen3-supersets-iphone5.png);
+	background-repeat: no-repeat;
+}
+
+#screen-weightselector {
+	background-image: url(../images/screen4-weightselector-iphone5.png);
+	background-repeat: no-repeat;
+}
+
+#screen-exercisesearch {
+	background-image: url(../images/screen5-exercise-search-iphone5.png);
+	background-repeat: no-repeat;
+}
+
+#screen-exercise {
+	background-image: url(../images/screen6-exercise-iphone5.png);
+	background-repeat: no-repeat;
+}
+
+#screen-kettlebells {
+	background-image: url(../images/bscreen1-kettlebells.png);
+	background-repeat: no-repeat;
+}
+
+#screen-weightstack {
+	background-image: url(../images/bscreen2-weight-stack.png);
+	background-repeat: no-repeat;
+}
+
+#screen-chart {
+	background-image: url(../images/bscreen3-chart.png);
+	background-repeat: no-repeat;
+}
+
+#screen-exercises {
+	background-image: url(../images/bscreen4-exercise-search.png);
+	background-repeat: no-repeat;
+}
+
+#screen-dataexport {
+	background-image: url(../images/bscreen5-program-history.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+/** FEATURES
+------------------------------*/
+
+#app-features {
+	background-image:url(../images/bg-features.png);
+	background-position: center top;
+	background-repeat:repeat-x;
+	background-color: #FFFFFF;
+}
+
+
+#app-features .section-inner {
+	padding-top: 40px;
+}
+
+
+#app-features h2{
+	padding: 0px 0px 10px;
+	
+}
+
+
+.point {
+	padding: 0px 0px 20px;
+	
+}
+
+#app-features .column-wrapper {
+	padding: 0;
+}
+
+.content-left ul li {
+	margin-bottom: 12px;
+	font-size: 16px;
+	color: #20297A;
+}
+
+
+.content-left ul ul {
+	list-style-type:disc;
+	padding-left: 20px;
+}
+
+
+.content-left ul ul li {
+		margin: 0;
+		font-size:14px;
+		line-height: 17px;
+		color: #000000;
+}
+
+
+#app-features  .content-right {
+	margin-left: 20px;
+	float: left;
+	width: 300px;
+}
+
+
+.content-right ul li {
+	margin-bottom: 12px;
+	font-size: 16px;
+	color: #20297A;
+}
+
+
+.content-right ul ul {
+	list-style-type:disc;
+	padding-left: 20px;
+}
+
+
+.content-right ul ul li {
+		margin: 0;
+		font-size:14px;
+		line-height: 17px;
+		color: #000000;
+}
+
+
+.feature-displays {
+	background-image:url(../images/bicepscurl2.png);
+	background-position: bottom right;
+	background-repeat:no-repeat;
+	padding-bottom: 15px;
+	min-height: 350px;
+}
+
+
+/** FOOTER
+------------------------------*/
+
+#footer {
+	background-image:url(../images/bg-screen-shadow.png);
+	background-position: top center;
+	background-color: #FFF;
+	background-repeat:no-repeat;
+}
+
+#footer .section-inner {
+	padding: 50px 0;
+}
+
+#footer p {
+	padding: 0px 0px 10px;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+#footer img {
+	padding: 0px 0px 20px;
+}
+
+#footer .left {
+	width: 500px;
+	float: left;
+	margin-right: 54px;
+}
+
+#footer .right {
+	width: 406px;
+	float: left;
+	text-align: right;
+}
+
+#footer .left-legal {
+	width: 600px;
+	float: left;
+	margin-right: 54px;
+}
+#footer .right-legal {
+	width: 260px;
+	float: left;
+	text-align: right;
+}
+.page-spacer {
+	height: 100px;
+}
+
+#polymathlogo {
+	background-image: url(../images/polymath-logo.png);
+	background-repeat: no-repeat;
+	width: 174px;
+	height: 60px;
+	display: block;
+	float: right;
+}

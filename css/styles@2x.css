@@ -1,0 +1,157 @@
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+
+
+/** NAVIGATION
+------------------------------*/
+
+
+  .menu-item a {
+	background-image:url(../images/navigation@2x.png);
+	background-size: 960px 213px;
+}
+
+
+/** HERO
+------------------------------*/
+
+
+#hero {
+	background-image:url(../images/bg-hero@2x.png);
+	background-size: 100% 492px;
+}
+
+
+.bar-image {
+	background-image:url(../images/bg-hero-1.2@2x.png);
+	background-size: 960px 492px;
+}
+
+.watch-button a, .watch-button a:visited {
+	background-image:url(../images/button-watch-01@2x.png);
+	background-size: 104px 138px;
+}
+
+.buy-button a, .buy-button a:visited {
+	background-image:url(../images/button-buy@2x.png);
+	background-size: 119px 138px;
+}
+
+/** KEY FEATURES
+------------------------------*/
+
+#key-features {
+	background-image:url(../images/bg-checkboxes@2x.png);
+	background-size: 8px 284px;
+}
+
+.bicepscurldude {
+	background-image:url(../images/bicepscurldude@2x.png);
+	background-size: 96px 71px;
+}
+
+.tickbox {
+	background-image: url(../images/tickbox@2x.png);
+	background-size: 47px 47px;
+}
+
+
+#how {
+	background-image:url(../images/bg-mesh@2x.png);
+	background-size: 12px 9px;
+}
+
+#how .how-wrapper {
+	background-image:url(../images/phone-iphone5-v2@2x.png);
+	background-size: 960px 660px;
+
+}
+
+.feature-displays {
+	background-image:url(../images/bicepscurl2@2x.png);
+	background-size: 236px 377px;
+}
+
+
+
+/** SCREEENSHOTS
+------------------------------*/
+
+.screenshots {
+	background-image:url(../images/bg-screen@2x.png);
+	background-size: 4px 629px;
+}
+
+.screenshots .section-inner {
+	background-image:url(../images/bg-screen-shadow@2x.png);
+	background-size: 960px 128px;
+}
+
+#screen-home {
+	background-image: url(../images/screen1-home-iphone5@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-workout {
+	background-image: url(../images/screen2-workout-iphone5@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-supersets {
+	background-image: url(../images/screen3-supersets-iphone5@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-weightselector {
+	background-image: url(../images/screen4-weightselector-iphone5@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-exercisesearch {
+	background-image: url(../images/screen5-exercise-search-iphone5@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-exercise {
+	background-image: url(../images/screen6-exercise-iphone5@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-kettlebells {
+	background-image: url(../images/bscreen1-kettlebells@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-weightstack {
+	background-image: url(../images/bscreen2-weight-stack@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-chart {
+	background-image: url(../images/bscreen3-chart@2x.png);
+	background-size: 268px 151px;
+}
+
+#screen-exercises {
+	background-image: url(../images/bscreen4-exercise-search@2x.png);
+	background-size: 151px 259px;
+}
+
+#screen-dataexport {
+	background-image: url(../images/bscreen5-program-history@2x.png);
+	background-size: 151px 259px;
+}
+
+/** FOOTER
+------------------------------*/
+
+
+#polymathlogo {
+	background-image: url(../images/polymath-logo@2x.png);
+	background-size: 174px 60px;
+}
+
+}
