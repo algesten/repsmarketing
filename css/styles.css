@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 
+
 /** YUI RESET
 ------------------------------*/
 
@@ -309,6 +310,46 @@ a:hover {
 	margin-top: 7px;
 }
 
+
+/** FEATURE PANELS
+------------------------------*/
+
+.featurepanel {
+	height: 419px;
+	width: auto;
+	background-image: url(../images/bg-featurepanel.png);
+	background-repeat: repeat-x;
+}
+
+.featurepanelshadow {
+	background-image: url(../images/bg-featurepanelshadow.png);
+	background-repeat: no-repeat;
+	background-position-x: middle;
+	background-position-y: top;
+	height: 419px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.featurepanelimage {
+	float: left;
+	width: 417px;
+	height: 419px;
+}
+
+#featuretodos {
+	background-image: url(../images/featurepanel-todolist.png);
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-position-y: bottom;
+}
+
+.featurepaneltext {
+	height: 419px;
+	width: 543px;
+	float: left;
+}
 
 
 

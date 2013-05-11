@@ -4,6 +4,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 
 
+
 /** NAVIGATION
 ------------------------------*/
 
@@ -38,6 +39,27 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-image:url(../images/button-buy@2x.png);
 	background-size: 119px 138px;
 }
+
+
+/** FEATURE PANELS
+------------------------------*/
+
+.featurepanel {
+	background-image: url(../images/bg-featurepanel@2x.png);
+	background-size: 4px 419px;
+}
+
+.featurepanelshadow {
+	background-image: url(../images/bg-featurepanelshadow@2x.png);
+	background-size: 960px 419px;
+}
+
+#featuretodos {
+	background-image: url(../images/featurepanel-todolist@2x.png);
+	background-size: 312px 373px;
+}
+
+
 
 /** KEY FEATURES
 ------------------------------*/
