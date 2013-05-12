@@ -74,6 +74,11 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-size: 461px 412px;
 }
 
+#featurehistory {
+	background-image: url(../images/featurepanel-history@2x.png);
+	background-size: 420px 200px;
+}	
+
 .featurepaneltext a {
 	background-image: url(../images/link-arrow@2x.png);
 	background-size: 9px 9px;

@@ -367,6 +367,14 @@ a:hover {
 	width: 461px;
 }
 
+#featurehistory {
+	background-image: url(../images/featurepanel-history.png);
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-position-y: center;
+	width: 471px;
+}
+
 .featurepaneltext {
 	height: 412px;
 	width: 543px;
@@ -378,6 +386,9 @@ a:hover {
 	padding-right: 40px;
 }
 
+#featuretexthistory {
+	width: 489px;
+}
 
 #textpanelweights {
 	padding-right: 40px;
