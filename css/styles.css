@@ -315,7 +315,7 @@ a:hover {
 ------------------------------*/
 
 .featurepanel {
-	height: 419px;
+	height: 412px;
 	width: auto;
 	background-image: url(../images/bg-featurepanel.png);
 	background-repeat: repeat-x;
@@ -326,7 +326,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position-x: middle;
 	background-position-y: top;
-	height: 419px;
+	height: 412px;
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -335,7 +335,7 @@ a:hover {
 .featurepanelimage {
 	float: left;
 	width: 417px;
-	height: 419px;
+	height: 412px;
 }
 
 #featuretodos {
@@ -359,11 +359,25 @@ a:hover {
 	background-position-y: bottom;
 }
 
+#featureexercisemanual {
+	background-image: url(../images/featurepanel-exercisemanual.png);
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: bottom;
+	width: 461px;
+}
+
 .featurepaneltext {
-	height: 419px;
+	height: 412px;
 	width: 543px;
 	float: left;
 }
+
+#featuretextexercisemanual {
+	width: 459px;
+	padding-right: 40px;
+}
+
 
 #textpanelweights {
 	padding-right: 40px;

@@ -69,6 +69,11 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-size: 417px 373px;
 }
 
+#featureexercisemanual {
+	background-image: url(../images/featurepanel-exercisemanual@2x.png);
+	background-size: 461px 412px;
+}
+
 .featurepaneltext a {
 	background-image: url(../images/link-arrow@2x.png);
 	background-size: 9px 9px;
