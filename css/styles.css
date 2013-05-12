@@ -345,10 +345,58 @@ a:hover {
 	background-position-y: bottom;
 }
 
+#featurevisualweightselectors {
+	background-image: url(../images/featurepanel-visualweightselectors.png);
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: top;
+}
+
+#featureresttimers {
+	background-image: url(../images/featurepanel-resttimers.png);
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-position-y: bottom;
+}
+
 .featurepaneltext {
 	height: 419px;
 	width: 543px;
 	float: left;
+}
+
+#textpanelweights {
+	padding-right: 40px;
+	width: 503px;
+}
+
+.featurepaneltext h2 {
+	font-weight: bold;
+	margin-bottom: 3px;
+	padding-top: 110px;
+	font-size: 25px;
+}
+
+.featurepaneltext h3 {
+	margin-bottom: 15px;
+	font-size: 22px;
+}
+
+.featurepaneltext p {
+	line-height: 25px;
+	font-size: 18px;
+}
+
+.featurepanellink {
+	margin-top: 10px;
+}
+
+.featurepaneltext a {
+	background-image: url(../images/link-arrow.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding: 0px 20px 0px 0px;
+	color: #20297a;
 }
 
 
@@ -693,12 +741,16 @@ a:hover {
 ------------------------------*/
 
 #app-features {
-	background-image:url(../images/bg-features.png);
-	background-position: center top;
-	background-repeat:repeat-x;
+	background-image:url(../images/bg-mesh.png);
 	background-color: #FFFFFF;
 }
 
+#app-features .shadow {
+	background-image:url(../images/shadow.png);
+	background-position: left top;
+	background-repeat:repeat-x;
+	width: 100%;
+}
 
 #app-features .section-inner {
 	padding-top: 40px;

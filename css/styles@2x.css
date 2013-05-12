@@ -59,6 +59,20 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-size: 312px 373px;
 }
 
+#featureresttimers {
+	background-image: url(../images/featurepanel-resttimers@2x.png);
+	background-size: 312px 373px;
+}
+
+#featurevisualweightselectors {
+	background-image: url(../images/featurepanel-visualweightselectors@2x.png);
+	background-size: 417px 373px;
+}
+
+.featurepaneltext a {
+	background-image: url(../images/link-arrow@2x.png);
+	background-size: 9px 9px;
+}
 
 
 /** KEY FEATURES
