@@ -68,13 +68,6 @@ body {
 }
 
 
-.key-features {
-	width:240px;
-	height:136px;
-	margin: 0 auto 0 auto;
-}
-
-
 h1 {
 	font-size: 36px;
 	margin: 0 0 6px 0px;
@@ -311,6 +304,52 @@ a:hover {
 }
 
 
+
+/** KEY FEATURES
+------------------------------*/
+
+#key-features {
+	background-image: url(../images/bg-checkboxes.png);
+	background-repeat: repeat-x;
+	height: 71px;
+}
+
+.bicepscurldude {
+	background-image:url(../images/bicepscurldude.png);
+	background-position: left top;
+	background-repeat:no-repeat;
+	width: 106px;
+	height: 71px;
+	float: left;
+}
+
+#key-features .module {
+	width: 194px;
+	float: left;
+	height: 71px;
+	overflow: hidden;
+}
+#key-features .module-inner {
+	padding-left: 50px;
+	padding-top: 16px;
+}
+
+#key-features .module h2 {
+	font-size: 18px;
+	margin: 0 0 3px 0;
+}
+
+#key-features .module p {
+	font-size: 11px;
+}
+
+.tickbox {
+	background-image:url(../images/tickbox.png);
+	background-position: left 16px;
+	background-repeat:no-repeat;
+}
+
+
 /** FEATURE PANELS
 ------------------------------*/
 
@@ -341,37 +380,32 @@ a:hover {
 #featuretodos {
 	background-image: url(../images/featurepanel-todolist.png);
 	background-repeat: no-repeat;
-	background-position-x: left;
-	background-position-y: bottom;
+	background-position: left bottom;
 }
 
 #featurevisualweightselectors {
 	background-image: url(../images/featurepanel-visualweightselectors.png);
 	background-repeat: no-repeat;
-	background-position-x: right;
-	background-position-y: top;
+	background-position: top right;
 }
 
 #featureresttimers {
 	background-image: url(../images/featurepanel-resttimers.png);
 	background-repeat: no-repeat;
-	background-position-x: left;
-	background-position-y: bottom;
+	background-position: bottom left;
 }
 
 #featureexercisemanual {
 	background-image: url(../images/featurepanel-exercisemanual.png);
 	background-repeat: no-repeat;
-	background-position-x: right;
-	background-position-y: bottom;
+	background-position: bottom right;
 	width: 461px;
 }
 
 #featurehistory {
 	background-image: url(../images/featurepanel-history.png);
 	background-repeat: no-repeat;
-	background-position-x: left;
-	background-position-y: center;
+	background-position: center left;
 	width: 471px;
 }
 
@@ -422,53 +456,6 @@ a:hover {
 	background-position: center right;
 	padding: 0px 20px 0px 0px;
 	color: #20297a;
-}
-
-
-
-
-/** KEY FEATURES
-------------------------------*/
-
-#key-features {
-	background-image:url(../images/bg-checkboxes.png);
-	background-repeat:repeat-x;
-	height: 71px;
-}
-
-.bicepscurldude {
-	background-image:url(../images/bicepscurldude.png);
-	background-position: left top;
-	background-repeat:no-repeat;
-	width: 106px;
-	height: 71px;
-	float: left;
-}
-
-#key-features .module {
-	width: 194px;
-	float: left;
-	height: 71px;
-	overflow: hidden;
-}
-#key-features .module-inner {
-	padding-left: 50px;
-	padding-top: 12px;
-}
-
-#key-features .module h2 {
-	font-size: 18px;
-	margin: 0 0 3px 0;
-}
-
-#key-features .module p {
-	font-size: 11px;
-}
-
-.tickbox {
-	background-image:url(../images/tickbox.png);
-	background-position: left 10px;
-	background-repeat:no-repeat;
 }
 
 
