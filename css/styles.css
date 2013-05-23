@@ -459,194 +459,181 @@ a:hover {
 }
 
 
-/** AT A GLANCE
+/** HOW IT WORKS
 ------------------------------*/
 
-.ataglancepaneltop {
-	height: 288px;
-	width: auto;
-	background-image: url(../images/bg-featurepanel.png);
-	background-repeat: repeat-x;
-}
-
-.ataglancepanelwhite {
-	height: 225px;
-	width: auto;
-	background-color: #ffffff;
-}
-
-.ataglancepanelgrey {
-	height: 225px;
-	background-color: #f8f8f8;
-}
-
-.ataglancepanelshadow, .ataglancepanelnoshadow {
-	height: 412px;
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.ataglancepanelshadow {
-	background-image: url(../images/bg-featurepanelshadow.png);
-	background-repeat: no-repeat;
-	background-position-x: middle;
-	background-position-y: top;
-}
-
-.ataglancepanelwhite h2, .ataglancepanelgrey h2, .ataglancepaneltop h2 {
-	font-size: 17px;
-	color: #999999;
-	font-weight: bold;
-	padding-top: 35px;
-}
-
-.ataglancepanelwhite h3, .ataglancepanelgrey h3, .ataglancepaneltop h3 {
-	font-size: 26px;
-	padding-top: 15px;
-	padding-bottom: 20px;
-}
-
-.ataglancepanelwhite h4, .ataglancepanelgrey h4, .ataglancepaneltop h4 {
-	font-size: 13px;
-	font-weight: bold;
-}
-
-.ataglancepanelwhite p, .ataglancepanelgrey p, .ataglancepaneltop p {
-	font-size: 12.5px;
-	color: #666666;
-	padding-bottom: 20px;
-}
-
-.featurecolumn {
-	width: 290px;
+#how .module {
+	width: 240px;
 	float: left;
-	padding-right: 30px;
+	height: 136px;
+	overflow: hidden;
+}
+#how .module-inner {
+	padding-left: 110px;
+	padding-top: 12px;
 }
 
-.featureitem {
-	padding-left: 57px;
+#how .module h2 {
+	font-size: 22px;
+	margin: 0 0 6px 0;
 }
 
-#itemtodos {
-	background-image:url(../images/icon-item-todos.png);
+#how .module p {
+	font-size: 13px;
+}
+
+
+#how {
+	background-image:url(../images/bg-mesh.png);
+	height: 764px;
+}
+
+#how h1 {
+	padding-bottom: 32px;
+}
+
+#how .shadow {
+	background-image:url(../images/shadow.png);
+	background-position: left top;
+	background-repeat:repeat-x;
+	width: 100%;
+}
+
+#how .how-wrapper {
+	background-image:url(../images/phone-iphone5-v2.png);
 	background-position: left top;
 	background-repeat:no-repeat;
+	height: 660px; 
+	width:960px;
+	position:relative;
+
 }
 
-#itemtimers {
-	background-image:url(../images/icon-item-timers.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+.video-wrapper {
+	top: 88px;
+	left: 360px;
+	height: 365px; 
+	width:243px;
+	position: absolute;
+
 }
 
-#itemsettings {
-	background-image:url(../images/icon-item-settings.png);
+
+.how-grad {
+	background-image:url(../images/how-grad.png);
 	background-position: left top;
-	background-repeat:no-repeat;
+	width: 1px;
+	height:14px;
+	background-repeat:repeat-x;
 }
 
-#itemcardio {
-	background-image:url(../images/icon-item-cardio.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+#how .module {
+	position: absolute;
+	width: 300px;
 }
 
-#itemsupersets {
-	background-image:url(../images/icon-item-supersets.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+.module-1 {
+	top: 136px;
+	left: 29px;
 }
 
-#itemtarget {
-	background-image:url(../images/icon-item-target.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+.module-2 {
+	top: 266px;
+	left: 29px;
 }
 
-#itemamend {
-	background-image:url(../images/icon-item-amend.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+.module-3 {
+	top: 398px;
+	left: 29px;
 }
 
-#itempyramid {
-	background-image:url(../images/icon-item-pyramid.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+.module-4 {
+	top: 136px;
+	right: 20px;
 }
 
-#itemplaylist {
-	background-image:url(../images/icon-item-playlist.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+.module-5 {
+	top: 266px;
+	right: 20px;
 }
 
-#itemshare {
-	background-image:url(../images/icon-item-share.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+.module-6 {
+	top: 398px;
+	right: 20px;
 }
 
-#itemsearch {
-	background-image:url(../images/icon-item-search.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+/** WHY KEEP A GYM LOG?
+------------------------------*/
+
+#why {
+	background-image:url(../images/bg-full-page.png);
+	background-position: center -1456px;
+	background-repeat:repeat-x;
+	height: 445px;
 }
 
-#itemillustration {
-	background-image:url(../images/icon-item-illustration.png);
+
+
+.gym {
+	background-image:url(../images/bg-why.jpg);
 	background-position: left top;
 	background-repeat:no-repeat;
+	height: 445px;
 }
 
-#itemdiagram {
-	background-image:url(../images/icon-item-diagram.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+#why h2 {
+	padding: 0px 0px 10px;
 }
 
-#itembrowse {
-	background-image:url(../images/icon-item-browse.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+#why p {
+	padding: 0px 0px 10px;
+	font-size: 14px;
+	line-height: 17px;
 }
 
-#itemcreate {
-	background-image:url(../images/icon-item-create.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+#why .column-wrapper {
+	padding: 40px 0 0 310px;
 }
 
-#itemchart {
-	background-image:url(../images/icon-item-chart.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+.content-left, .content-right {
+	float: left;
+	width: 310px;
 }
 
-#itemcsv {
-	background-image:url(../images/icon-item-csv.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+.content-right {
+	margin-left: 30px;
 }
 
-#itemonerepmax {
-	background-image:url(../images/icon-item-onerepmax.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+
+.watch-button-2 {
+	float: left;
+	width: 122px;
+	height: 46px;
 }
 
-#itemmeasurement {
-	background-image:url(../images/icon-item-measurement.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+.watch-button-2 a, .watch-button-2 a:visited {
+	background-image:url(../images/button-watch-02.png);
+	text-indent: -9999px;
+	display: block;
+	height: 30px;
+	margin-top: 7px;
 }
 
-#itembmi {
-	background-image:url(../images/icon-item-bmi.png);
-	background-position: left top;
-	background-repeat:no-repeat;
+.watch-button-2 a:hover {
+	background-position: 0 -30px;
+	margin-top: 7px;
 }
+
+
 
 /** SCREEENSHOTS
 ------------------------------*/
@@ -863,15 +850,10 @@ a:hover {
 	background-position: top center;
 	background-color: #FFF;
 	background-repeat:no-repeat;
-	padding-top: 20px;
 }
 
 #footer .section-inner {
 	padding: 50px 0;
-	background-image: url(../images/bicepscurl2.png);
-	background-position: top right;
-	background-repeat: no-repeat;
-	min-height: 200px;
 }
 
 #footer p {
@@ -884,3 +866,37 @@ a:hover {
 	padding: 0px 0px 20px;
 }
 
+#footer .left {
+	width: 500px;
+	float: left;
+	margin-right: 54px;
+}
+
+#footer .right {
+	width: 406px;
+	float: left;
+	text-align: right;
+}
+
+#footer .left-legal {
+	width: 600px;
+	float: left;
+	margin-right: 54px;
+}
+#footer .right-legal {
+	width: 260px;
+	float: left;
+	text-align: right;
+}
+.page-spacer {
+	height: 100px;
+}
+
+#polymathlogo {
+	background-image: url(../images/polymath-logo.png);
+	background-repeat: no-repeat;
+	width: 174px;
+	height: 60px;
+	display: block;
+	float: right;
+}
