@@ -41,6 +41,25 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 
+/** CHECKS ALL THE BOXES
+------------------------------*/
+
+#key-features {
+	background-image:url(../images/bg-checkboxes@2x.png);
+	background-size: 8px 284px;
+}
+
+.bicepscurldude {
+	background-image:url(../images/bicepscurldude@2x.png);
+	background-size: 96px 71px;
+}
+
+.tickbox {
+	background-image: url(../images/tickbox@2x.png);
+	background-size: 47px 47px;
+}
+
+
 /** FEATURE PANELS
 ------------------------------*/
 
@@ -85,41 +104,108 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 
-/** KEY FEATURES
+/** AT A GLANCE
 ------------------------------*/
 
-#key-features {
-	background-image:url(../images/bg-checkboxes@2x.png);
-	background-size: 8px 284px;
+#itemtodos {
+	background-image:url(../images/icon-item-todos@2x.png);
+	background-size: 43px 43px;
 }
 
-.bicepscurldude {
-	background-image:url(../images/bicepscurldude@2x.png);
-	background-size: 96px 71px;
+#itemtimers {
+	background-image:url(../images/icon-item-timers@2x.png);
+	background-size: 43px 43px;
 }
 
-.tickbox {
-	background-image: url(../images/tickbox@2x.png);
-	background-size: 47px 47px;
+#itemsettings {
+	background-image:url(../images/icon-item-settings@2x.png);
+	background-size: 43px 43px;
 }
 
-
-#how {
-	background-image:url(../images/bg-mesh@2x.png);
-	background-size: 12px 9px;
+#itemcardio {
+	background-image:url(../images/icon-item-cardio@2x.png);
+	background-size: 43px 43px;
 }
 
-#how .how-wrapper {
-	background-image:url(../images/phone-iphone5-v2@2x.png);
-	background-size: 960px 660px;
-
+#itemsupersets {
+	background-image:url(../images/icon-item-supersets@2x.png);
+	background-size: 43px 43px;
 }
 
-.feature-displays {
-	background-image:url(../images/bicepscurl2@2x.png);
-	background-size: 236px 377px;
+#itemtarget {
+	background-image:url(../images/icon-item-target@2x.png);
+	background-size: 43px 43px;
 }
 
+#itemamend {
+	background-image:url(../images/icon-item-amend@2x.png);
+	background-size: 43px 43px;
+}
+
+#itempyramid {
+	background-image:url(../images/icon-item-pyramid@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemplaylist {
+	background-image:url(../images/icon-item-playlist@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemshare {
+	background-image:url(../images/icon-item-share@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemsearch {
+	background-image:url(../images/icon-item-search@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemillustration {
+	background-image:url(../images/icon-item-illustration@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemdiagram {
+	background-image:url(../images/icon-item-diagram@2x.png);
+	background-size: 43px 43px;
+}
+
+#itembrowse {
+	background-image:url(../images/icon-item-browse@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemcreate {
+	background-image:url(../images/icon-item-create@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemchart {
+	background-image:url(../images/icon-item-chart@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemcsv {
+	background-image:url(../images/icon-item-csv@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemonerepmax {
+	background-image:url(../images/icon-item-onerepmax@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemmeasurement {
+	background-image:url(../images/icon-item-measurement@2x.png);
+	background-size: 43px 43px;
+}
+
+#itembmi {
+	background-image:url(../images/icon-item-bmi@2x.png);
+	background-size: 43px 43px;
+}
 
 
 /** SCREEENSHOTS
@@ -194,9 +280,9 @@ only screen and (min-device-pixel-ratio: 2) {
 ------------------------------*/
 
 
-#polymathlogo {
-	background-image: url(../images/polymath-logo@2x.png);
-	background-size: 174px 60px;
+#footer .section-inner {
+	background-image: url(../images/bicepscurl2@2x.png);
+	background-size: 236px 377px;
 }
 
 }
