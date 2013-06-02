@@ -55,17 +55,12 @@ body {
 	width: 100%;
 }
 
-.shadow {
 
-}
-
-.section-inner {
+.section-innerx {
 	width: 960px;
 	margin: 0 auto 0 auto;
 }
 
-.anchor {
-}
 
 
 h1 {
@@ -458,6 +453,10 @@ a:hover {
 	color: #20297a;
 }
 
+.featurepanelimagemobile {
+	display: none;
+}
+
 
 /** AT A GLANCE
 ------------------------------*/
@@ -762,97 +761,7 @@ a:hover {
 
 
 
-/** FEATURES
-------------------------------*/
 
-#app-features {
-	background-image:url(../images/bg-mesh.png);
-	background-color: #FFFFFF;
-}
-
-#app-features .shadow {
-	background-image:url(../images/shadow.png);
-	background-position: left top;
-	background-repeat:repeat-x;
-	width: 100%;
-}
-
-#app-features .section-inner {
-	padding-top: 40px;
-}
-
-
-#app-features h2{
-	padding: 0px 0px 10px;
-	
-}
-
-
-.point {
-	padding: 0px 0px 20px;
-	
-}
-
-#app-features .column-wrapper {
-	padding: 0;
-}
-
-.content-left ul li {
-	margin-bottom: 12px;
-	font-size: 16px;
-	color: #20297A;
-}
-
-
-.content-left ul ul {
-	list-style-type:disc;
-	padding-left: 20px;
-}
-
-
-.content-left ul ul li {
-		margin: 0;
-		font-size:14px;
-		line-height: 17px;
-		color: #000000;
-}
-
-
-#app-features  .content-right {
-	margin-left: 20px;
-	float: left;
-	width: 300px;
-}
-
-
-.content-right ul li {
-	margin-bottom: 12px;
-	font-size: 16px;
-	color: #20297A;
-}
-
-
-.content-right ul ul {
-	list-style-type:disc;
-	padding-left: 20px;
-}
-
-
-.content-right ul ul li {
-		margin: 0;
-		font-size:14px;
-		line-height: 17px;
-		color: #000000;
-}
-
-
-.feature-displays {
-	background-image:url(../images/bicepscurl2.png);
-	background-position: bottom right;
-	background-repeat:no-repeat;
-	padding-bottom: 15px;
-	min-height: 350px;
-}
 
 
 /** FOOTER
@@ -866,10 +775,10 @@ a:hover {
 	padding-top: 20px;
 }
 
-#footer .section-inner {
+#footer .section-innerx {
 	padding: 50px 0;
 	background-image: url(../images/bicepscurl2.png);
-	background-position: top right;
+	background-position: bottom right;
 	background-repeat: no-repeat;
 	min-height: 200px;
 }
@@ -884,3 +793,13 @@ a:hover {
 	padding: 0px 0px 20px;
 }
 
+.fb {
+	border:none; 
+	overflow:hidden; 
+	width:450px; 
+	height:35px;
+}
+
+.startlegals {
+	margin-top: 20px;
+}

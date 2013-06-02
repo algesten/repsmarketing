@@ -1,0 +1,295 @@
+@media only screen 
+	  and (max-width : 320px){
+
+.ataglancepanelshadow, .ataglancepanelnoshadow, .featurepanelshadow, .section-inner {
+	width: 320px;
+}
+
+.section-inner {
+	margin: 0px;
+}
+
+.section-innerx {
+	overflow-x: hidden;
+	width: auto;
+}
+
+#navigation {
+	background-image: url(../images/mobile-navigation.png);
+	background-size: 320px 44px;
+}
+
+.menu {
+	display: none;
+}
+
+
+
+/** HERO
+------------------------------*/
+
+
+#hero {
+	height: 529px;
+	padding: 0px;
+}
+
+.bar-image {
+	background-image:url(../images/bg-hero-1.2-iphone.png);
+	background-size: 320px 485px;
+	background-position: 0px 44px;
+	background-repeat: no-repeat;
+	height: auto;
+}
+
+.bar-image h1  {
+	padding-right: 0px;
+	padding-top: 334px;
+	font-size: 26px;
+}
+
+.bar-image h4  {
+	padding-right: 0px;
+	font-size: 16px;
+}
+
+.herobuttons {
+	width: 320px; 
+}
+
+
+/** KEY FEATURES
+------------------------------*/
+
+#key-features {
+	height: 270px;
+}
+
+.bicepscurldude {
+	display: none;
+}
+
+#key-features .module p {
+	font-size: 13px;
+}
+
+#key-features .module {
+	width: 300px;
+	height: 60px;
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+
+/** FEATURE PANELS
+------------------------------*/
+
+#featuretodos, #featurevisualweightselectors, #featureresttimers, #featureexercisemanual, #featurehistory {
+	display: none;
+}
+
+.featurepaneltext, #textpanelweights, #featuretextexercisemanual, #featuretexthistory {
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: none;
+}
+
+.featurepaneltext h2 {
+	font-weight: bold;
+	margin-bottom: 3px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.featurepaneltext h3 {
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.featurepaneltext p {
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.featurepanelshadow {
+	background-image: url(../images/bg-featurepanelshadow-mobile.png);
+	background-size: 320px 154px;
+	width: auto;
+	margin: 0px;
+	height: auto;
+	background-color: #ffffff;
+}
+
+.featurepanel {
+	height: auto;
+}
+
+.featurepanelimagemobile {
+	display: block;
+}
+
+#featuretodosmobile {
+	background-image: url(../images/featurepanel-todolist-mobile.png);
+	background-size: 189px 222px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 232px;
+}
+
+#featureweightselectormobile {
+	background-image: url(../images/featurepanel-visualweightselectors-mobile.png);
+	background-size: 247px 222px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 222px;
+}
+
+#featureresttimermobile {
+	background-image: url(../images/featurepanel-resttimer-mobile.png);
+	background-size: 189px 222px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 232px;
+}
+
+#featureexercisemanualmobile {
+	background-image: url(../images/featurepanel-exercisemanual-mobile.png);
+	background-size: 247px 222px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 222px;
+}
+
+#featureehistorymobile {
+	background-image: url(../images/featurepanel-history-mobile.png);
+	background-size: 280px 134px;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 222px;
+}
+
+#featuretextexercisemanual, #textpanelweights {
+	padding-right: 0px;
+}
+
+/** AT A GLANCE
+------------------------------*/
+
+.ataglancepaneltop, .ataglancepanelgrey, .ataglancepanelwhite {
+	height: auto;
+	clear: left;
+}
+
+.ataglancepaneltop {
+	background-image: url(../images/bg-featurepanelshadow-mobile.png);
+	background-size: 320px 154px;
+	background-position: center top;
+}
+
+.ataglancepanelshadow, .ataglancepanelnoshadow {
+	background-image: none;
+	width: 300px;
+	height: auto;
+}
+
+.ataglancepaneltop h2, .ataglancepanelgrey h2, .ataglancepanelwhite h2 {
+	font-size: 14px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+
+.ataglancepaneltop h3, .ataglancepanelgrey h3, .ataglancepanelwhite h3 {
+	font-size: 22px;
+	padding-left: 10px;
+}
+
+.ataglancepaneltop h3 {
+	padding-top: 5px;
+}
+
+.ataglancepanelgrey h3, .ataglancepanelwhite h3 {
+	padding-top: 20px;
+}
+
+.featurecolumn {
+	width: 270px;
+	float: none;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+
+/** SCREEENSHOTS
+------------------------------*/
+
+.screenshots {
+    background-image:url(../images/bg-featurepanelshadow-mobile.png);
+	background-size: 320px 54px;
+	background-position:center top;
+	background-repeat:no-repeat;
+	padding-top: 0px;
+}
+
+.screenshots .section-innerx {
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 260px;
+	padding-top: 20px;
+}
+
+.screen a {
+	width: 120px;
+	height: 205px;
+}
+
+#screen-home, #screen-workout, #screen-supersets, #screen-weightselector, #screen-exercisesearch, #screen-exercise, #screen-kettlebells, #screen-weightstack, #screen-exercises, #screen-dataexport {
+	background-size: 120px 205px;	
+}
+
+.screenshots .clear-fix {
+	display: none;
+}
+
+.screenshots .first-second-row {
+	margin-left: 0px;
+}
+
+.screenshots #screen-chart {
+	width: 248px;
+	height: 140px;
+	background-size: 248px 140px;
+}
+
+
+
+/** FOOTER
+------------------------------*/
+
+
+#footer {
+    background-image:url(../images/bg-featurepanelshadow-mobile.png);
+	background-size: 320px 54px;
+	background-position:center top;
+	background-repeat:no-repeat;
+	padding-top: 0px;	
+}
+
+.fb {
+	width: 260px;
+}
+
+#footer .section-innerx {
+	background: none;
+	min-height: auto;
+	padding: 20px 20px;
+	width: auto;
+}
+
+#footer p {
+	font-size: 12px;
+}
+
+}

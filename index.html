@@ -10,10 +10,12 @@
 <meta property="fb:admins" content="graham.bower" />
 <meta property="og:type" content="website"/>
 <meta name="apple-itunes-app" content="app-id=510607676">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Reps &amp; Sets the fitness app for iPhone</title>
 
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="css/styles@2x.css" rel="stylesheet" type="text/css" />
+<link href="css/styles-smartphone.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="javascript/fancybox/jquery.fancybox.css?v=2.1.0" type="text/css" media="screen" />
 
 
@@ -59,8 +61,6 @@
 
 </script>
 
-
-
 </head>
 
 <body>
@@ -68,7 +68,7 @@
 	<!--Start Navigation-->
 
 	<div class="section" id="navigation">
-    	<div class="section-inner">
+    	<div class="section-innerx">
         
         	<ul class="menu">
             	<li class="menu-item menu-home"><a class="btn" href="#home" onClick="_gaq.push(['_trackEvent', 'navigation', 'home']);">Home</a></li>
@@ -84,12 +84,11 @@
    
 	<!--End of Navigation-->
     
-     
 	<!--Start Hero-->
     
 	<a id="home" name="home" class="anchor"></a>
     <div class="section" id="hero">
-    	<div class="section-inner bar-image">
+    	<div class="section-innerx bar-image">
         	
             <h1>A new kind of fitness app</h1>
             <h4>Reps & Sets is a better way to log your<br />
@@ -118,7 +117,7 @@
     
     <div class="section" id="key-features">
     	
-    	<div class="section-inner">
+    	<div class="section-innerx">
         
 			<div class="bicepscurldude">
              </div>
@@ -170,6 +169,8 @@
           <p>Pre-program your regular workouts, and then simply check off each set as you go. No need to keep entering reps and weights. It's so simple, you'll wonder why all fitness apps don't work this way.</p>
           <p class="featurepanellink"><a class="various fancybox.iframe" href="http://www.youtube.com/embed/mP8fJGzqbJU?autoplay=1" onClick="_gaq.push(['_trackEvent', 'feature demo', 'feature demo workout todos']);">See workout to-dos in action</a></p>
         </div>
+        <div class="featurepanelimagemobile" id="featuretodosmobile">
+        </div>
       </div>
     </div>
     <div class="featurepanel">
@@ -182,17 +183,21 @@
         </div>
         <div class="featurepanelimage" id="featurevisualweightselectors">
         </div>
+        <div class="featurepanelimagemobile" id="featureweightselectormobile">
+        </div>
       </div>
     </div>
     <div class="featurepanel">
       <div class="featurepanelshadow">
-        <div class="featurepanelimage" id="featureresttimers">
+      <div class="featurepanelimage" id="featureresttimers">
         </div>
         <div class="featurepaneltext">
           <h2>Trigger automatic rest-timers.</h2>
           <h3>So you can spend your rest time resting.</h3>
           <p>When you include rest intervals in a program, Reps & Sets handles the timers for you. Just check off a set and the next rest timer starts automatically, pre-set to the rest interval you specified in your program.</p>
           <p class="featurepanellink"><a class="various fancybox.iframe" href="http://www.youtube.com/embed/oLbTkGj_T_0?autoplay=1" onClick="_gaq.push(['_trackEvent', 'feature demo', 'feature auto rest timers']);">See automatic rest-timers in action</a></p>
+        </div>
+        <div class="featurepanelimagemobile" id="featureresttimermobile">
         </div>
       </div>
     </div> 
@@ -206,6 +211,8 @@
         </div>
         <div class="featurepanelimage" id="featureexercisemanual">
         </div>
+        <div class="featurepanelimagemobile" id="featureexercisemanualmobile">
+        </div>
       </div>
     </div>
 <div class="featurepanel">
@@ -217,6 +224,8 @@
           <h3>See exactly how you’ve been doing.</h3>
           <p>In the history tab you can chart your progress with visual graphs for each exercise; browse your history in calendar view; check your estimated one-rep-max; or export a CSV file and get clever with spreadsheets.</p>
           <p class="featurepanellink"><a class="various fancybox.iframe" href="http://www.youtube.com/embed/ymsdTuK1LsA?autoplay=1" onClick="_gaq.push(['_trackEvent', 'feature demo', 'feature history']);">See history and data export in action</a></p>
+        </div>
+        <div class="featurepanelimagemobile" id="featureehistorymobile">
         </div>
       </div>
     </div>
@@ -376,7 +385,7 @@
     
 <a id="screen-shots" name="why-log" class="anchor"></a>
 <div class="section screenshots">
-    	<div class="section-inner">
+    	<div class="section-innerx">
         
     <div class="screen first">
     	<a class="fancybox" id="screen-home" rel="group" href="images/screen1-home-iphone5-large.png" onClick="_gaq.push(['_trackEvent', 'screenshots', 'home screen']);"></a>
@@ -446,25 +455,22 @@
       
     <a id="support" name="support" class="anchor"></a>
     <div class="section" id="footer">
-    	<div class="section-inner">
+    	<div class="section-innerx">
         
         
-        	<div class="left">
+
                 <h2>Support</h2>
                 <div class="fb">
-                	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Frepsandsetsapp&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35&amp;appId=111683188934927" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+                	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Frepsandsetsapp&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35&amp;appId=111683188934927" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                     </div>
+                <p>Post your questions or comments on our <a href="http://www.facebook.com/repsandsetsapp" style="text-decoration: underline;">Facebook page</a>.</p>
                 <p>Tweet us your support queries to <a href="https://twitter.com/RepsAndSets" style="text-decoration: underline;">@RepsAndSets</a> on Twitter.</p>
                 <p>Or e-mail your questions or comments to <a href="mailto:support@polymathdigital.com" style="text-decoration: underline;">support@polymathdigital.com</a>.</p>
                 <p>We will get back to you within one working day.</p>
-       	   </div>
-        	<div class="left-legal">
-                <h5>&copy; 2013 Polymath Digital Ltd. All rights reserved.</h5>
-                <h5><a href="http://www.polymathdigital.com/privacy.html">Privacy Policy</a> | <a href="http://www.polymathdigital.com">www.polymathdigital.com</a></h5>
-                <h5><span class="trade"></span> Reps &amp; Sets and the Reps &amp; Sets dumbbell icon are trademarks of Polymath Digital Ltd.<br/>
-                iPhone and iPod touch are registered trademarks of Apple Inc.</h5>
-                
-             </div>
+                <p class="startlegals">&copy; 2013 Polymath Digital Ltd. All rights reserved.</p>
+                <p><a href="http://www.polymathdigital.com/privacy.html">Privacy Policy</a> | <a href="http://www.polymathdigital.com">www.polymathdigital.com</a></p>
+                <p><span class="trade"></span> Reps &amp; Sets and the Reps &amp; Sets dumbbell icon are trademarks of Polymath Digital Ltd.<br/>
+                iPhone and iPod touch are registered trademarks of Apple Inc.</p>
 
              
         
@@ -479,7 +485,8 @@
 
 	</div>
     </div>
-    <div class="page-spacer"></div>
+    <div class="page-spacer"></div>   
+
 	
 </body>
 
