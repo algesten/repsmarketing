@@ -120,6 +120,10 @@ a:hover {
 ------------------------------*/
 
 
+#menuicon, #mobilemenu {
+	display: none;
+}
+
 #navigation {
 	background-image:url(../images/nav-bg.png);
 	background-position:top center;

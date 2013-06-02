@@ -24,6 +24,7 @@
 <script type="text/javascript" src="javascript/polymathscroller.js"></script>
 <script type="text/javascript" src="javascript/fancybox/jquery.fancybox.js"></script>
 <script type="text/javascript" src="javascript/waypoints/waypoints.min.js"></script>
+<script>$(function(){$('#menuicon, #mobilemenu').click(function(){$('#mobilemenu').toggle()})})</script>
 
 
 <script type="text/javascript">
@@ -78,7 +79,18 @@
                 <li class="menu-item menu-support"><a class="btn" href="#support" onClick="_gaq.push(['_trackEvent', 'navigation', 'support']);">Support</a></li>
                 <li class="menu-item menu-store"><a href="http://itunes.apple.com/app/reps-sets/id510607676" onClick="_gaq.push(['_trackEvent', 'itunes', 'app store']);">App Store</a></li>
             </ul>
-                
+            <div id="menuicon"></div>
+            <div id="mobilemenu">
+              <div id="menuclose"></div>
+	            <ul>
+            	<li class="menu-item menu-home"><a class="btn" href="#home" onClick="_gaq.push(['_trackEvent', 'navigation', 'home']);">Home</a></li>
+                <li class="menu-item menu-how"><a class="btn" href="#features" onClick="_gaq.push(['_trackEvent', 'navigation', 'features']);">Features</a></li>
+                <li class="menu-item menu-features"><a class="btn" href="#at-a-glance" onClick="_gaq.push(['_trackEvent', 'navigation', 'at a glance']);">At A Glance</a></li>
+                <li class="menu-item menu-why"><a class="btn" href="#screen-shots" onClick="_gaq.push(['_trackEvent', 'navigation', 'screen shots']);">Screen shots</a></li>
+                <li class="menu-item menu-support"><a class="btn" href="#support" onClick="_gaq.push(['_trackEvent', 'navigation', 'support']);">Support</a></li>
+                <li class="menu-item menu-store" id="appstorebadge"><a class="btn" href="http://itunes.apple.com/app/reps-sets/id510607676" onClick="_gaq.push(['_trackEvent', 'itunes', 'app store']);">App Store</a></li>
+            </ul>
+            </div>
        </div>
 	</div>
    
