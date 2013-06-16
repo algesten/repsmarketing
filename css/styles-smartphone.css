@@ -2,7 +2,7 @@
 	  and (max-width : 320px){
 
 .ataglancepanelshadow, .ataglancepanelnoshadow, .featurepanelshadow, .section-inner {
-	width: 320px;
+	width: 300px;
 }
 
 .section-inner {
@@ -12,6 +12,10 @@
 .section-innerx {
 	overflow-x: hidden;
 	width: auto;
+}
+
+.mobileonly {
+	display: block;
 }
 
 
@@ -289,6 +293,147 @@
 	padding-right: 20px;
 }
 
+
+
+/** WORKOUT PROGRAMS
+------------------------------*/
+
+
+.workoutprogrampanel {
+	width: auto;
+	padding: 0px;
+}
+
+.programsheader {
+	padding: 10px;
+}
+
+.programsheader h2 {
+	padding: 0px;
+}
+
+.workoutprogramcolumn {
+	width: auto;
+	padding: 0px 0px 10px 0px;
+	font-size: 14px;
+	line-height: 18px;
+	float: none;
+}
+
+.programpanel p {
+	display: none;
+}
+
+.programpanel {
+	display: block;
+	width: 116px;
+	height: 90px;
+	background-image: url(../images/programpanel-mobile.png);
+	background-size: 140px 114px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	float: left;
+	padding: 12px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+
+.programpanel:hover {
+	background-image: url(../images/programpanel-hover-mobile.png);	
+	background-size: 140px 114px;
+}
+
+#programimagebeginners, #programimagesplits, #programimagegoals, #programimagebodyareas, #programimageapproaches {
+	width: 116px;
+	height: 73px;
+	background-size: 116px 73px;
+	margin-bottom: 0px;
+}
+
+.programpanel h3 {
+	margin-top: 4px;
+}
+
+.programpanelgroup {
+	height: 500px;
+	padding: 0px;
+	width: auto;
+}
+
+.programpanelgroup {
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#programpanelmobileheader {
+	display: block;
+}
+
+#programpanelmobileheader:hover {
+	background-image: url(../images/programpanel-mobile.png);
+	background-size: 140px 114px;	
+}
+
+.programpanelspacer {
+	display: block;
+	width: 10px;
+	height: 114px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+#programindicator1, #programindicator2, #programindicator3, #programindicator4, #programindicator5 {
+	width: 305px;
+	height: 12px;
+	background-image: url(../images/programindicator-mobile.png);
+	background-size: 320px 12px;
+	background-position: center top;
+}
+
+.programdraw {
+	width: auto;
+	height: auto;
+	background-image: none;
+	background-color: #ececec;
+	margin: 0px;
+	padding: 0px;
+}
+
+.programdrawinner {
+	width: auto;
+	height: auto;
+	padding: 0px;
+}
+
+#programdrawbeginners .illustration {
+	display: none;
+}
+
+#programdrawbeginners {
+	width: auto;
+}
+
+#programdrawbeginners h2, #programdrawbeginners h3, #programdrawbeginners p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#programdrawbeginners h2, #programdrawsplits h2, #programdrawbodyareas h2, #programdrawgoals h2, #programdrawapproaches h2 {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.programdrawbuttons {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.programdrawthreecolumn {
+	width: auto;
+	float: none;
+	padding: 0px 10px 10px 10px;
+}
 
 /** SCREEENSHOTS
 ------------------------------*/

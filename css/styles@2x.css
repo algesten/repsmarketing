@@ -9,7 +9,14 @@ only screen and (min-device-pixel-ratio: 2) {
 ------------------------------*/
 
 
-  .menu-item a {
+#navigation {
+	background-image: url(../images/nav-bg.png);
+	background-size: 2880px 85px;
+}
+
+
+
+.menu-item a {
 	background-image:url(../images/navigation@2x.png);
 	background-size: 960px 213px;
 }
@@ -205,6 +212,137 @@ only screen and (min-device-pixel-ratio: 2) {
 #itembmi {
 	background-image:url(../images/icon-item-bmi@2x.png);
 	background-size: 43px 43px;
+}
+
+
+
+/** WORKOUT PROGRAMS
+------------------------------*/
+
+
+.programpanel {
+	background-image: url(../images/bg-programpanel@2x.png);
+	background-size: 182px 383px;
+}
+
+.programpanel:hover {
+	background-image: url(../images/bg-programpanel-hover@2x.png);
+	background-size: 182px 383px;
+}
+
+#programimagebeginners {
+	background-image: url(../images/programimage-beginner@2x.png);
+	background-size: 158px 99px;
+}
+
+#programimagesplits {
+	background-image: url(../images/programimage-splits@2x.png);
+	background-size: 158px 99px;
+}
+
+#programimagegoals {
+	background-image: url(../images/programimage-goals@2x.png);
+	background-size: 158px 99px;
+}
+
+#programimagebodyareas {
+	background-image: url(../images/programimage-bodyareas@2x.png);
+	background-size: 158px 99px;
+}
+
+#programimageapproaches {
+	background-image: url(../images/programimage-approaches@2x.png);
+	background-size: 158px 99px;
+}
+
+.programdraw {
+	background-image: url(../images/bg-programdraw@2x.png);
+	background-size: 4px 346px;
+}
+
+#programindicator1 {
+	background-image: url(../images/programindicator-1@2x.png);
+	background-size: 960px 24px;
+}
+
+#programindicator2 {
+	background-image: url(../images/programindicator-2@2x.png);
+	background-size: 960px 24px;
+}
+
+#programindicator3 {
+	background-image: url(../images/programindicator-3@2x.png);
+	background-size: 960px 24px;
+}
+
+#programindicator4 {
+	background-image: url(../images/programindicator-4@2x.png);
+	background-size: 960px 24px;
+}
+
+#programindicator5 {
+	background-image: url(../images/programindicator-5@2x.png);
+	background-size: 960px 24px;
+}
+
+#programdrawbeginners .illustration {
+	background-image: url(../images/program-beginners-illustration@2x.png);
+	background-size: 525px 249px;
+}
+
+.buttonviewprogram {
+	background-image: url(../images/button-viewprogram@2x.png);
+	background-size: 146px 27px;
+}
+
+#buttontwodayupper {
+	background-image: url(../images/button-2day-upper@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttontwodaylegs {
+	background-image: url(../images/button-2day-legs@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonthreechest {
+	background-image: url(../images/button-3day-chest@2x.png);
+	background-size: 147px 27px;	
+}
+
+#buttonthreeback  {
+	background-image: url(../images/button-3day-back@2x.png);
+	background-size: 147px 27px;	
+}
+
+#buttonthreelegs  {
+	background-image: url(../images/button-3day-legs@2x.png);
+	background-size: 147px 27px;	
+}
+
+#buttonfivemon {
+	background-image: url(../images/button-5day-mon@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonfivetue {
+	background-image: url(../images/button-5day-tue@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonfivewed {
+	background-image: url(../images/button-5day-wed@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonfivefri {
+	background-image: url(../images/button-5day-fri@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonfivesat {
+	background-image: url(../images/button-5day-sat@2x.png);
+	background-size: 147px 27px;
 }
 
 

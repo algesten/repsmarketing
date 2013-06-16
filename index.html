@@ -25,6 +25,11 @@
 <script type="text/javascript" src="javascript/fancybox/jquery.fancybox.js"></script>
 <script type="text/javascript" src="javascript/waypoints/waypoints.min.js"></script>
 <script>$(function(){$('#menuicon, #mobilemenu').click(function(){$('#mobilemenu').toggle()})})</script>
+<script>$(function(){$('#programpanelsplits').click(function(){$('#programdrawbeginners, #programdrawgoals, #programdrawbodyareas, #programdrawapproaches').toggle(false);$('#programdrawsplits').toggle(true)})});
+$(function(){$('#programpanelbeginners').click(function(){$('#programdrawsplits, #programdrawgoals, #programdrawbodyareas, #programdrawapproaches').toggle(false);$('#programdrawbeginners').toggle(true)})});
+$(function(){$('#programpanelgoals').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawbodyareas, #programdrawapproaches').toggle(false);$('#programdrawgoals').toggle(true)})});
+$(function(){$('#programpanelbodyareas').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawgoals, #programdrawapproaches').toggle(false);$('#programdrawbodyareas').toggle(true)})});
+$(function(){$('#programpanelapproaches').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawgoals, #programdrawbodyareas').toggle(false);$('#programdrawapproaches').toggle(true)})})</script>
 
 
 <script type="text/javascript">
@@ -72,9 +77,10 @@
     	<div class="section-innerx">
         
         	<ul class="menu">
-            	<li class="menu-item menu-home"><a class="btn" href="#home" onClick="_gaq.push(['_trackEvent', 'navigation', 'home']);">Home</a></li>
+                <li class="menu-item menu-home"><a class="btn" href="#home" onClick="_gaq.push(['_trackEvent', 'navigation', 'home']);">Home</a></li>
                 <li class="menu-item menu-how"><a class="btn" href="#features" onClick="_gaq.push(['_trackEvent', 'navigation', 'features']);">Features</a></li>
                 <li class="menu-item menu-features"><a class="btn" href="#at-a-glance" onClick="_gaq.push(['_trackEvent', 'navigation', 'at a glance']);">At A Glance</a></li>
+                <li class="menu-item menu-programs"><a class="btn" href="#workout-programs" onClick="_gaq.push(['_trackEvent', 'navigation', 'screen shots']);">Workout programs</a></li>
                 <li class="menu-item menu-why"><a class="btn" href="#screen-shots" onClick="_gaq.push(['_trackEvent', 'navigation', 'screen shots']);">Screen shots</a></li>
                 <li class="menu-item menu-support"><a class="btn" href="#support" onClick="_gaq.push(['_trackEvent', 'navigation', 'support']);">Support</a></li>
                 <li class="menu-item menu-store"><a href="http://itunes.apple.com/app/reps-sets/id510607676" onClick="_gaq.push(['_trackEvent', 'itunes', 'app store']);">App Store</a></li>
@@ -83,9 +89,9 @@
             <div id="mobilemenu">
               <div id="menuclose"></div>
 	            <ul>
-            	<li class="menu-item menu-home"><a class="btn" href="#home" onClick="_gaq.push(['_trackEvent', 'navigation', 'home']);">Home</a></li>
                 <li class="menu-item menu-how"><a class="btn" href="#features" onClick="_gaq.push(['_trackEvent', 'navigation', 'features']);">Features</a></li>
-                <li class="menu-item menu-features"><a class="btn" href="#at-a-glance" onClick="_gaq.push(['_trackEvent', 'navigation', 'at a glance']);">At A Glance</a></li>
+                <li class="menu-item menu-features"><a class="btn" href="#at-a-glance" onClick="_gaq.push(['_trackEvent', 'navigation', 'at a glance']);">At a glance</a></li>
+                <li class="menu-item menu-workoutprograms"><a class="btn" href="#workout-programs" onClick="_gaq.push(['_trackEvent', 'navigation', 'workout programs']);">Workout programs</a></li>
                 <li class="menu-item menu-why"><a class="btn" href="#screen-shots" onClick="_gaq.push(['_trackEvent', 'navigation', 'screen shots']);">Screen shots</a></li>
                 <li class="menu-item menu-support"><a class="btn" href="#support" onClick="_gaq.push(['_trackEvent', 'navigation', 'support']);">Support</a></li>
                 <li class="menu-item menu-store" id="appstorebadge"><a class="btn" href="http://itunes.apple.com/app/reps-sets/id510607676" onClick="_gaq.push(['_trackEvent', 'itunes', 'app store']);">App Store</a></li>
@@ -389,10 +395,157 @@
     <!--End of At A Glance-->
     
 
-   
+    <!--Start Workout Programs-->  
   
-    
+    <a id="workout-programs" name="workout-programs" class="anchor"></a>
+    <div class="workoutprogrampanel">
+      <div class="ataglancepanelshadow">
+        <div class="programsheader">
+          <h2>Workout programs</h2>
+          <p class="workoutprogramcolumn">"Programs" are reusable to-do lists for your workout, so you can check off your exercises as you go and trigger pre-set rest timers. They're easy to create and share via e-mail, Messages, Facebook, Twitter or the Web. </p>
+          <p class="workoutprogramcolumn">Here, we're sharing some of our favorite workout programs to get you started. If you're browsing this site on your iPhone, you can click through to add a workout program to your copy of Reps &amp; Sets 1.4.</p>
+        </div>
+        <div class="programpanelgroup">
+        <div class="programpanelgroupinner">
+          <a class="programpanel" id="programpanelbeginners">
+            <div class="programimage" id="programimagebeginners"></div>
+            <h3>BEGINNERS</h3>
+            <p>If you're new to weight resistance training, it's best to start with a balanced whole body approach, working all your major muscle groups in a single session that you can repeat three or four times a week. Aim for higher rep ranges (15-20 reps per set), to allow your body to get used to lifting, to avoid injury.</p>
+          </a>
+          <div class="programpanelspacer"></div>
+          <a class="programpanel" id="programpanelsplits">
+            <div class="programimage" id="programimagesplits"></div>
+            <h3>SPLITS</h3>
+            <p>Split programs focus on different muscle groups on different days. This reduces the need for rest days, because one body area can recover while you're working on another. Focusing on muscle groups increases your training intensity which is important for endurance and hypertrophy goals.</p>
+          </a>
+          <a class="programpanel" id="programpanelgoals">
+            <div class="programimage" id="programimagegoals"></div>
+            <h3>GOALS</h3>
+            <p>Whether you’re training for a physical challenge like a marathon, or aiming for the perfect beach body, goals add structure, focus and motivation to your workout. These programs utilise the full range of Reps & Sets features, including intervals, supersets, pyramids, dropsets and equipment settings.</p>
+          </a>
+          <div class="programpanelspacer"></div>
+          <a class="programpanel" id="programpanelbodyareas">
+            <div class="programimage" id="programimagebodyareas"></div>
+            <h3>BODY AREAS</h3>
+            <p>If there is an area of your body that needs special attention, or deserves extra punishment, try one of our targeted programs, which include men’s magazine favourites like “Absolute Abs - no gym required”, and “Great guns made easy” programs. (We lied about it being easy).</p>
+          </a>
+          <a class="programpanel" id="programpanelapproaches">
+            <div class="programimage" id="programimageapproaches"></div>
+            <h3>APPROACHES</h3>
+            <p>When you’re looking to get past a plateau, advanced resistance approaches like supersets, pyramids and dropsets can make all the difference. That’s why, unlike most fitness apps, we have support for these build right in to Reps & Sets.  These examples will show you how to include them in your programs.</p>
+          </a>
+          <div class="programpanelspacer"></div>
+          <div class="programpanel" id="programpanelmobileheader">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>  
+    <div class="clear-fix"></div>
+    <div class="programdraw">
+	    <div class="programdrawinner">
+	      <div id="programdrawbeginners">
+	        <div class="programindicator" id="programindicator1"></div>
+	        <div class="illustration"></div>
+	        <h2>BEGINNERS</h2>
+	        <p class="mobileonly">If you're new to weight resistance training, it's best to start with a balanced whole body approach, working all your major muscle groups in a single session that you can repeat three or four times a week. Aim for higher rep ranges (15-20 reps per set), to allow your body to get used to lifting, to avoid injury</p>
+	        <h3>Whole body program</h3>
+	        <p>This beginner's program is a great way to start at the gym. It starts with some cardio to get you warmed up, and then works through all the major muscle groups, using resistance machines rather than free weights, to help you get used to correct form. Adjust the weights so that you reach failure in your third set at around 15 reps. Each session should take about an hour. Complete this program 3-4 times a week, and always give yourself a day's rest between sessions.</p>
+	        <div class="programdrawbuttons">
+	          <a href="http://reps.io/pbu" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	      </div>
+          <div id="programdrawsplits">
+	        <div class="programindicator" id="programindicator2"></div>
+	        <h2>SPLITS</h2>
+	        <div class="programdrawthreecolumn">
+	          <p class="mobileonly">Split programs focus on different muscle groups on different days. This reduces the need for rest days, because one body area can recover while you're working on another. Focusing on muscle groups increases your training intensity which is important for endurance and hypertrophy goals.</p>
+	          <h3>2 Day Split</h3>
+	          <p>This two day split program gives equal focus to upper and lower body, employing big, multi-joint lifts to develop functional strength. It's ideal for someone looking for something more challenging than a whole body approach program. Aim to complete both days twice a week with rest days in between.</p>
+	          <a href="#" title="Day 1: Upper Body" class="programbutton" id="buttontwodayupper">Day 1: Upper Body</a><a href="#" title="Day 2: Legs" class="programbutton" id="buttontwodaylegs">Day 2: Legs</a>
+	          <div class="clear-fix"></div>
+	        </div>
+	        <div class="programdrawthreecolumn">
+	          <h3>3 Day Split</h3>
+	          <p>This three day split program is ideal for intermediate or advanced lifters with strength and hypertrophy goals. By combining muscle groups that normally work together when pushing, pulling or squatting, this balanced program includes plenty of big compound moves while also providing targeted intensity.</p>
+	          <a href="#" title="1: Chest, Delts &amp; Triceps" class="programbutton" id="buttonthreechest">1: Chest, Delts &amp; Triceps</a><a href="#" title="2: Back and Biceps" class="programbutton" id="buttonthreeback">2: Back and Biceps</a><a href="#" title="3: Legs" class="programbutton" id="buttonthreelegs">3: Legs</a>
+	          <div class="clear-fix"></div>
+	        </div>
+	        <div class="programdrawthreecolumn" id="programdrawlastcolumn">
+	          <h3>5 Day Split</h3>
+	          <p>This five day split program is designed for an experienced gym user focusing on hypertrophy. By isolating a specific muscle group in each session, and using approaches such as pyramids, drop-sets and supersets, this program aims to completely exhaust each muscle group, to stimulate growth.</p>
+	          <a href="#" title="Mon: Legs" class="programbutton" id="buttonfivemon">Mon: Legs</a><a href="#" title="Tue: Chest" class="programbutton" id="buttonfivetue">Tue: Chest</a><a href="#" title="Wed: Back" class="programbutton" id="buttonfivewed">Wed: Back</a><a href="#" title="Fri: Shoulders" class="programbutton" id="buttonfivefri">Fri: Shoulders</a><a href="#" title="Sat: Arms" class="programbutton" id="buttonfivesat">Sat: Arms</a>
+	          <div class="clear-fix"></div>
+	        </div>
+	        <div class="clear-fix"></div>
+	      </div>
+          <div id="programdrawgoals">
+	        <div class="programindicator" id="programindicator3"></div>
+	        <h2>GOALS</h2>
+	        <div class="programdrawthreecolumn">
+	          <p class="mobileonly">Whether you’re training for a physical challenge like a marathon, or aiming for the perfect beach body, goals add structure, focus and motivation to your workout. These programs utilise the full range of Reps & Sets features, including intervals, supersets, pyramids, dropsets and equipment settings.</p>
+	          <h3>Marathon Mania</h3>
+	          <p>If you've committed to doing the old 42.2km, you've committed yourself to some serious training. Following a classic training pattern of lactic threshold training, tempo runs and a weekly long slow distance run this program might just help you reach the finish line. Follow the program for 12 weeks, steadily progressing distance or pace each week, then reduce training volume for a two week taper at the end.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	        <div class="programdrawthreecolumn">
+	          <h3>Pectacular Bench Press</h3>
+	          <p>This program is designed to increase your one rep max on a classic test of strength – the bench press. For experience lifters, this program uses pyramids and drop-sets at low rep-ranges to completely exhaust the pecs, triceps and front delts. Select weights for which you reach failure in the specified reps, and aim to steadily progress weights each week. Complete once or twice a week, and remember to work your back, biceps and legs on other days.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	        <div class="programdrawthreecolumn" id="programdrawlastcolumn">
+	          <h3>Body Fat Blast</h3>
+	          <p>If you're aim is to reduce your body fat, then cutting the calories you consume is essential. But exercise also plays an important role - by burning more calories when you exercise, and increasing your basal metabolic rate, so you burn more calories when you're resting too. Combining HIIT and whole body weight resistance, aim to complete this workout program 3-4 times a week, and watch those calories burn.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	      </div>
+	      <div id="programdrawbodyareas">
+	        <div class="programindicator" id="programindicator4"></div>
+	        <h2>BODY AREAS</h2>
+	        <div class="programdrawthreecolumn">
+	          <p class="mobileonly">If there is an area of your body that needs special attention, or deserves extra punishment, try one of our targeted programs, which include men’s magazine favourites like “Absolute Abs - no gym required”, and “Great guns made easy” programs. (We lied about it being easy).</p>
+	          <h3>Absolute abs - no gym required</h3>
+	          <p>Cutting body fat will reveal your six pack, but it won't make it bulge. Your rectus abdominis is much like any other muscle - if you want to make it bigger, you need to work it harder. So if you can see your six pack, but it's not much to look at, give this core workout a go. Hitting your abs from every angle and combining isometric (static) and isotonic (moving) exercises, this workout will not only add size to your six pack, it will increase your core strength as well.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	        <div class="programdrawthreecolumn">
+	          <h3>The Chest Chiseller</h3>
+	          <p>A great pair of pecs is at the top of the to-do list for most guys at the gym. If you want thick, full pecs with a cleft in between like a valley, you'll need to be hitting them hard, and from every angle to make sure that your upper and lower pecs are all doing their fair share. Add this workout to a split program to give your chest some serious punishment.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	        <div class="programdrawthreecolumn" id="programdrawlastcolumn">
+	          <h3>Great Guns Made Easy</h3>
+	          <p>Biceps may be the arm muscle that most guys focus on, but your triceps make up about two-third of our upper arm muscle mass, so they deserve some serious attention too. This workout combines pushing and pulling moves in the hypertrophy rep range to get your upper arms looking good from every angle. Work it into a split program on arm day and get your guns growing.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	      </div>
+	      <div id="programdrawapproaches">
+	        <div class="programindicator" id="programindicator5"></div>
+	        <h2>APPROACHES</h2>
+	        <div class="programdrawthreecolumn">
+	          <p class="mobileonly">When you’re looking to get past a plateau, advanced resistance approaches like supersets, pyramids and dropsets can make all the difference. That’s why, unlike most fitness apps, we have support for these build right in to Reps & Sets.  These examples will show you how to include them in your programs.</p>
+	          <h3>Pyramid Scheme</h3>
+	          <p>This program demonstrates how you can build pyramids and reverse pyramids into a program. This is possible because Reps & Sets allows you to specify number of reps and weights for each individual set. By steadily increasing weight and reducing reps, pyramids have warmup built right in, and can help you pass a plateau in training by building towards heavier weights.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	        <div class="programdrawthreecolumn">
+	          <h3>Drop Dead Drop Sets</h3>
+	          <p>By allowing you to specify rest intervals, Reps & Sets let you specify drop sets in a program. Dropsets provide a very intensive way of overloading your muscles. When you reach failure in a set, rather than resting, you drop the weight and continue until you reach failure again - usually repeating three times. When working with barbells, these are sometimes called strip sets because you strip the bar of plates as you go.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	        <div class="programdrawthreecolumn" id="programdrawlastcolumn">
+	          <h3>Super-duper Supersets</h3>
+	          <p>Reps & Sets allows you to combine multiple exercises to create supersets (you can specify three or more for tri-sets or giant sets). By combining exercises working opposing muscle groups, you can save time on resting. Alternatively, by hitting the same muscle with two different exercises you can increase training intensity by challenging the target muscle from different angles within a single set.</p>
+	          <a href="#" title="View Program" class="buttonviewprogram">View Program</a>
+	        </div>
+	      </div>
+	    </div>
+    </div>
 
+
+    <!--End Workout Programs-->  
+    
+    
     <!--Start Screen Module-->
     
 <a id="screen-shots" name="why-log" class="anchor"></a>
