@@ -384,7 +384,7 @@
 }
 
 #programindicator1, #programindicator2, #programindicator3, #programindicator4, #programindicator5 {
-	width: 305px;
+	width: auto;
 	height: 12px;
 	background-image: url(../images/programindicator-mobile.png);
 	background-size: 320px 12px;
