@@ -396,7 +396,7 @@
 	height: auto;
 	background-image: none;
 	background-color: #ececec;
-	margin: 0px;
+	margin-top: 330px;
 	padding: 0px;
 }
 
@@ -433,6 +433,10 @@
 	width: auto;
 	float: none;
 	padding: 0px 10px 10px 10px;
+}
+
+#drawclear {
+	clear: none;
 }
 
 /** SCREEENSHOTS
