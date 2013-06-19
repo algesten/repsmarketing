@@ -100,9 +100,19 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-size: 461px 412px;
 }
 
+#featuremeasurements {
+	background-image: url(../images/featurepanel-measurements@2x.png);
+	background-size: 461px 412px;
+}
+
 #featurehistory {
 	background-image: url(../images/featurepanel-history@2x.png);
 	background-size: 420px 200px;
+}
+
+#featureshare {
+	background-image: url(../images/featurepanel-share@2x.png);
+	background-size: 450px 293px;
 }	
 
 .featurepaneltext a {

@@ -418,11 +418,25 @@ a:hover {
 	width: 461px;
 }
 
+#featuremeasurements {
+	background-image: url(../images/featurepanel-measurements.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	width: 461px;
+}
+
 #featurehistory {
 	background-image: url(../images/featurepanel-history.png);
 	background-repeat: no-repeat;
 	background-position: center left;
 	width: 471px;
+}
+
+#featureshare {
+	background-image: url(../images/featurepanel-share.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	width: 450px;
 }
 
 .featurepaneltext {
@@ -436,8 +450,18 @@ a:hover {
 	padding-right: 40px;
 }
 
+#featuretextmeasurements {
+	width: 459px;
+	padding-right: 40px;
+}
+
 #featuretexthistory {
 	width: 489px;
+}
+
+#featuretextshare {
+	width: 449px;
+	margin-left: 40px;
 }
 
 #textpanelweights {
@@ -450,6 +474,10 @@ a:hover {
 	margin-bottom: 3px;
 	padding-top: 110px;
 	font-size: 25px;
+}
+
+#featuretextshare h2 {
+	padding-top: 90px;
 }
 
 .featurepaneltext h3 {
@@ -478,6 +506,13 @@ a:hover {
 	display: none;
 }
 
+.shareicons {
+	float: left;
+	width: 67px;
+	height: 28px;
+	background-image: url(../images/share-icons.png);
+	background-repeat: no-repeat;
+}
 
 /** AT A GLANCE
 ------------------------------*/
