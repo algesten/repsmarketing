@@ -355,6 +355,31 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-size: 147px 27px;
 }
 
+#buttonmarathonmon {
+	background-image: url(../images/button-marathon-mon@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonmarathontue {
+	background-image: url(../images/button-marathon-tue@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonmarathonthu {
+	background-image: url(../images/button-marathon-thu@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonmarathonfri {
+	background-image: url(../images/button-marathon-fri@2x.png);
+	background-size: 147px 27px;
+}
+
+#buttonmarathonsat {
+	background-image: url(../images/button-marathon-sat@2x.png);
+	background-size: 147px 27px;
+}
+
 
 /** SCREEENSHOTS
 ------------------------------*/

@@ -949,6 +949,26 @@ a:hover {
 	background-image: url(../images/button-5day-sat.png);
 }
 
+#buttonmarathonmon {
+	background-image: url(../images/button-marathon-mon.png);
+}
+
+#buttonmarathontue {
+	background-image: url(../images/button-marathon-tue.png);
+}
+
+#buttonmarathonthu {
+	background-image: url(../images/button-marathon-thu.png);
+}
+
+#buttonmarathonfri {
+	background-image: url(../images/button-marathon-fri.png);
+}
+
+#buttonmarathonsat {
+	background-image: url(../images/button-marathon-sat.png);
+}
+
 #programpanelmobileheader, .programpanelspacer {
 	display: none;
 }
