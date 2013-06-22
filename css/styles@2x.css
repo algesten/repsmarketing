@@ -232,12 +232,12 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .programpanel {
 	background-image: url(../images/bg-programpanel@2x.png);
-	background-size: 182px 383px;
+	background-size: 182px 275px;
 }
 
 .programpanel:hover {
 	background-image: url(../images/bg-programpanel-hover@2x.png);
-	background-size: 182px 383px;
+	background-size: 182px 275px;
 }
 
 #programimagebeginners {

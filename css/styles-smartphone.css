@@ -157,11 +157,11 @@
 /** FEATURE PANELS
 ------------------------------*/
 
-#featuretodos, #featurevisualweightselectors, #featureresttimers, #featureexercisemanual, #featurehistory {
+#featuretodos, #featurevisualweightselectors, #featureresttimers, #featureexercisemanual, #featurehistory, #featuremeasurements, #featureshare {
 	display: none;
 }
 
-.featurepaneltext, #textpanelweights, #featuretextexercisemanual, #featuretexthistory {
+.featurepaneltext, #textpanelweights, #featuretextexercisemanual, #featuretexthistory, #featuretextmeasurements, #featuretextshare {
 	width: auto;
 	height: auto;
 	margin-left: 20px;
@@ -235,6 +235,24 @@
 	height: 222px;
 }
 
+#featuremeasurementsmobile {
+	background-image: url(../images/featurepanel-measurements-mobile.png);
+	background-size: 247px 222px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 222px;
+}
+
+#featuresharemobile {
+	background-image: url(../images/featurepanel-share-mobile.png);
+	background-size: 280px 134px;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 222px;
+}
+
+
+
 #featureehistorymobile {
 	background-image: url(../images/featurepanel-history-mobile.png);
 	background-size: 280px 134px;
@@ -245,6 +263,14 @@
 
 #featuretextexercisemanual, #textpanelweights {
 	padding-right: 0px;
+}
+
+.shareicons {
+	float: none;
+}
+
+#featuretextshare h2 {
+	padding-top: 20px;
 }
 
 /** AT A GLANCE
@@ -327,9 +353,9 @@
 .programpanel {
 	display: block;
 	width: 116px;
-	height: 90px;
+	height: 79px;
 	background-image: url(../images/programpanel-mobile.png);
-	background-size: 140px 114px;
+	background-size: 140px 91px;
 	background-position: top left;
 	background-repeat: no-repeat;
 	float: left;
@@ -340,14 +366,34 @@
 
 .programpanel:hover {
 	background-image: url(../images/programpanel-hover-mobile.png);	
-	background-size: 140px 114px;
+	background-size: 140px 91px;
 }
 
 #programimagebeginners, #programimagesplits, #programimagegoals, #programimagebodyareas, #programimageapproaches {
 	width: 116px;
-	height: 73px;
-	background-size: 116px 73px;
+	height: 50px;
+	background-size: 116px 50px;
 	margin-bottom: 0px;
+}
+
+#programimagebeginners {
+	background-image: url(../images/programimage-beginner-mobile.png);
+}
+
+#programimagesplits {
+	background-image: url(../images/programimage-splits-mobile.png);
+}
+
+#programimagegoals {
+	background-image: url(../images/programimage-goals-mobile.png);
+}
+
+#programimagebodyareas {
+	background-image: url(../images/programimage-bodyareas-mobile.png);
+}
+
+#programimageapproaches {
+	background-image: url(../images/programimage-approaches-mobile.png);
 }
 
 .programpanel h3 {
@@ -372,13 +418,13 @@
 
 #programpanelmobileheader:hover {
 	background-image: url(../images/programpanel-mobile.png);
-	background-size: 140px 114px;	
+	background-size: 140px 91px;	
 }
 
 .programpanelspacer {
 	display: block;
 	width: 10px;
-	height: 114px;
+	height: 91px;
 	float: left;
 	margin-bottom: 5px;
 }
@@ -396,7 +442,7 @@
 	height: auto;
 	background-image: none;
 	background-color: #ececec;
-	margin-top: 330px;
+	margin-top: 290px;
 	padding: 0px;
 }
 
