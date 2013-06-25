@@ -72,9 +72,9 @@ a {
 	text-align: center;
 	font-size: 17px;
 	font-family: Helvetica;
-	height: 31px;
+	height: 33px;
 	vertical-align: center;
-	padding-top: 14px;
+	padding-top: 12px;
 }
 
 #navbarspace {
@@ -86,12 +86,12 @@ a {
 
 h2 {
 	background-color: #e5e5e5;
-	height: 20px;
+	height: 23px;
 	font-size: 14px;
 	color: #4d4d4d;
 	font-family: Helvetica;
 	font-weight: lighter;
-	padding-top: 25px;
+	padding-top: 22px;
 	padding-left: 15px;
 	text-transform: uppercase;
 }
@@ -120,9 +120,9 @@ li span {
 }
 
 .listtext {
-	padding-top: 15px;
+	padding-top: 12px;
 	padding-right: 22px;
-	height: 56px;
+	height: 59px;
 	border-bottom: 1px solid #c8c8c8;
 	margin-left: 86px;
 	background-image: url(../images/arrow.png);
