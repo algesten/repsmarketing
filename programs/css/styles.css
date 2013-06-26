@@ -111,7 +111,8 @@ li span {
 .thumbnail {
 	width: 56px;
 	height: 56px;
-	background-color: red;
+	background-size: 56px 56px;
+	background-repeat: no-repeat;
 	float: left;
 	margin-left: 15px;
 	margin-top: 8px;
@@ -135,3 +136,56 @@ li span {
 .lastlisttext {
 	border: none;
 }
+
+#wholebodythumbnail {
+	background-image: url(../images/thumbnail-wholebody@2x.png);
+}
+
+#twodaysplitthumbnail {
+	background-image: url(../images/thumbnail-2daysplit@2x.png);
+}
+
+#threedaysplitthumbnail {
+	background-image: url(../images/thumbnail-3daysplit@2x.png);
+}
+
+#fivedaysplitthumbnail {
+	background-image: url(../images/thumbnail-5daysplit@2x.png);
+}
+
+#marathonthumbnail {
+	background-image: url(../images/thumbnail-marathon@2x.png);
+}
+
+#pectacularthumbnail {
+	background-image: url(../images/thumbnail-pectacular@2x.png);
+}
+
+#bodyfatthumbnail {
+	background-image: url(../images/thumbnail-bodyfatblast@2x.png);
+}
+
+#absoluteabsthumbnail {
+	background-image: url(../images/thumbnail-absoluteabs@2x.png);
+}
+
+#chestchisellerthumbnail {
+	background-image: url(../images/thumbnail-chestchiseller@2x.png);
+}
+
+#greatgunsthumbnail {
+	background-image: url(../images/thumbnail-greatguns@2x.png);
+}
+
+#pyramidschemethumbnail {
+	background-image: url(../images/thumbnail-pyramidscheme@2x.png);
+}
+
+#dropsetsthumbnail {
+	background-image: url(../images/thumbnail-dropsets@2x.png);
+}
+
+#supersetsthumbnail {
+	background-image: url(../images/thumbnail-supersets@2x.png);
+}
+
