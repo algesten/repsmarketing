@@ -223,6 +223,38 @@ li span {
 	background-image: url(../images/image-marathonmania@2x.png);
 }
 
+#pectaculardescription {
+	background-image: url(../images/image-pectacular@2x.png);
+}
+
+#bodyfatblastdescription {
+	background-image: url(../images/image-bodyfatblast@2x.png);
+}
+
+#absoluteabsdescription {
+	background-image: url(../images/image-absoluteabs@2x.png);
+}
+
+#chestchisellerdescription {
+	background-image: url(../images/image-chestchiseller@2x.png);
+}
+
+#greatgunsdescription {
+	background-image: url(../images/image-greatguns@2x.png);
+}
+
+#pyramidsdescription {
+	background-image: url(../images/image-pyramids@2x.png);
+}
+
+#dropsetsdescription {
+	background-image: url(../images/image-dropsets@2x.png);
+}
+
+#supersetsdescription {
+	background-image: url(../images/image-supersets@2x.png);
+}
+
 .downloadlist li {
 	height: 45px;
 	margin-left: 12px;
