@@ -380,6 +380,11 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-size: 147px 27px;
 }
 
+p.programpanellink {
+	background-image: url(../images/link-arrow-down@2x.png);
+	background-size: 9px 9px;
+}
+
 
 /** SCREEENSHOTS
 ------------------------------*/

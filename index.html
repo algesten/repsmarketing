@@ -25,11 +25,11 @@
 <script type="text/javascript" src="javascript/fancybox/jquery.fancybox.js"></script>
 <script type="text/javascript" src="javascript/waypoints/waypoints.min.js"></script>
 <script>$(function(){$('#menuicon, #mobilemenu').click(function(){$('#mobilemenu').toggle()})})</script>
-<script>$(function(){$('#programpanelsplits').click(function(){$('#programdrawbeginners, #programdrawgoals, #programdrawbodyareas, #programdrawapproaches').toggle(false);$('#programdrawsplits').toggle(true)})});
-$(function(){$('#programpanelbeginners').click(function(){$('#programdrawsplits, #programdrawgoals, #programdrawbodyareas, #programdrawapproaches').toggle(false);$('#programdrawbeginners').toggle(true)})});
-$(function(){$('#programpanelgoals').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawbodyareas, #programdrawapproaches').toggle(false);$('#programdrawgoals').toggle(true)})});
-$(function(){$('#programpanelbodyareas').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawgoals, #programdrawapproaches').toggle(false);$('#programdrawbodyareas').toggle(true)})});
-$(function(){$('#programpanelapproaches').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawgoals, #programdrawbodyareas').toggle(false);$('#programdrawapproaches').toggle(true)})})</script>
+<script>$(function(){$('#programpanelsplits').click(function(){$('#programdrawbeginners, #programdrawgoals, #programdrawbodyareas, #programdrawapproaches, #programpanellinksplits').toggle(false);$('#programdrawsplits, #programpanellinkbeginners, #programpanellinkbodyareas, #programpanellinkgoals, #programpanellinkapproaches ').toggle(true)})});
+$(function(){$('#programpanelbeginners').click(function(){$('#programdrawsplits, #programdrawgoals, #programdrawbodyareas, #programdrawapproaches, #programpanellinkbeginners').toggle(false);$('#programdrawbeginners, #programpanellinksplits, #programpanellinkbodyareas, #programpanellinkgoals, #programpanellinkapproaches').toggle(true)})});
+$(function(){$('#programpanelgoals').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawbodyareas, #programdrawapproaches, #programpanellinkgoals').toggle(false);$('#programdrawgoals, #programpanellinksplits, #programpanellinkbodyareas, #programpanellinkbeginners, #programpanellinkapproaches').toggle(true)})});
+$(function(){$('#programpanelbodyareas').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawgoals, #programdrawapproaches, #programpanellinkbodyareas').toggle(false);$('#programdrawbodyareas, #programpanellinksplits, #programpanellinkgoals, #programpanellinkbeginners, #programpanellinkapproaches').toggle(true)})});
+$(function(){$('#programpanelapproaches').click(function(){$('#programdrawsplits, #programdrawbeginners, #programdrawgoals, #programdrawbodyareas, #programpanellinkapproaches').toggle(false);$('#programdrawapproaches, #programpanellinksplits, #programpanellinkgoals, #programpanellinkbeginners, #programpanellinkbodyareas').toggle(true)})})</script>
 
 
 <script type="text/javascript">
@@ -438,29 +438,34 @@ $(function(){$('#programpanelapproaches').click(function(){$('#programdrawsplits
           <a class="programpanel" id="programpanelbeginners">
             <div class="programimage" id="programimagebeginners"></div>
             <h3>BEGINNERS</h3>
-            <p>New to weight resistance training? Start with a  whole body approach, working all  major muscle groups in a single session, three or four times a week. Aim for 15-20 reps per set.</p>
+            <p>New to weight resistance training? Start with a  whole body approach, working all  major muscle groups in a single session.</p>
+            <p class="programpanellink" id="programpanellinkbeginners">View programs</p>
           </a>
           <div class="programpanelspacer"></div>
           <a class="programpanel" id="programpanelsplits">
             <div class="programimage" id="programimagesplits"></div>
             <h3>SPLITS</h3>
-            <p>Split programs focus on different muscle groups on different days, letting one body area recover while you're working on another. Splits help increase the intensity of your training.</p>
+            <p>Split programs focus on different muscle groups on different days, letting one body area recover while you're working on another.</p>
+            <p class="programpanellink" id="programpanellinksplits">View programs</p>
           </a>
           <a class="programpanel" id="programpanelgoals">
             <div class="programimage" id="programimagegoals"></div>
             <h3>GOALS</h3>
-            <p>Whether you’re training for a physical challenge like a marathon, or aiming for the perfect beach body, goals add structure, focus and motivation to your workout.</p>
+            <p>Whether you’re training for a marathon, or for the perfect beach body, goals add focus and motivation to your workout.</p>
+            <p class="programpanellink" id="programpanellinkgoals">View programs</p>
           </a>
           <div class="programpanelspacer"></div>
           <a class="programpanel" id="programpanelbodyareas">
             <div class="programimage" id="programimagebodyareas"></div>
             <h3>BODY AREAS</h3>
-            <p>If there is an area of your body that needs special attention, or deserves extra punishment, try one of our targeted programs.</p>
+            <p>If there is an area of your body that needs special attention, or extra punishment, try one of our targeted programs.</p>
+            <p class="programpanellink" id="programpanellinkbodyareas">View programs</p>
           </a>
           <a class="programpanel" id="programpanelapproaches">
             <div class="programimage" id="programimageapproaches"></div>
             <h3>APPROACHES</h3>
-            <p>Looking to get past a plateau? Approaches like supersets, pyramids and dropsets  make all the difference. So naturally you can log them in Reps & Sets.</p>
+            <p>Looking to get past a plateau? Approaches like supersets, pyramids and dropsets  make all the difference.</p>
+            <p class="programpanellink" id="programpanellinkapproaches">View programs</p>
           </a>
           <div class="programpanelspacer"></div>
           <div class="programpanel" id="programpanelmobileheader">

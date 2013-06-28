@@ -801,6 +801,20 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
+p.programpanellink {
+	color: #20297a;
+	margin-top: 10px;
+	width: auto;
+	padding-left: 12px;
+	background-image: url(../images/link-arrow-down.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#programpanellinkbeginners {
+	display: none;
+}
+
 .programdraw {
 	width: auto;
 	height: 346px;
