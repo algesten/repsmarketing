@@ -103,13 +103,13 @@
 
 
 #hero {
-	height: 529px;
+	height: 539px;
 	padding: 0px;
 }
 
 .bar-image {
-	background-image:url(../images/bg-hero-1.2-iphone.png);
-	background-size: 320px 485px;
+	background-image:url(../images/bg-hero-1.5-iphone.png);
+	background-size: 320px 495px;
 	background-position: 0px 44px;
 	background-repeat: no-repeat;
 	height: auto;
@@ -255,7 +255,7 @@
 
 #featureehistorymobile {
 	background-image: url(../images/featurepanel-history-mobile.png);
-	background-size: 280px 134px;
+	background-size: 280px 160px;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 222px;
@@ -269,9 +269,10 @@
 	float: none;
 }
 
-#featuretextshare h2 {
+#featuretextshare h2, #featuretexthistory h2 {
 	padding-top: 20px;
 }
+
 
 /** AT A GLANCE
 ------------------------------*/

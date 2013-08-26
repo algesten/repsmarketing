@@ -426,10 +426,12 @@ a:hover {
 }
 
 #featurehistory {
-	background-image: url(../images/featurepanel-history.png);
+	background-image: url(../images/featurepanel-charts.png);
 	background-repeat: no-repeat;
 	background-position: center left;
-	width: 471px;
+	width: 491px;
+	height: 314px;
+	margin-top: 89px;
 }
 
 #featureshare {
@@ -456,7 +458,12 @@ a:hover {
 }
 
 #featuretexthistory {
-	width: 489px;
+	width: 459px;
+	margin-right: 10px;
+}
+
+#featuretexthistory h2 {
+	padding-top: 90px;
 }
 
 #featuretextshare {
