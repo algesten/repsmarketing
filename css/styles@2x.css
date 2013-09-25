@@ -33,7 +33,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 .bar-image {
-	background-image:url(../images/bg-hero-1.2@2x.png);
+	background-image:url(../images/bg-hero-1.6@2x.png);
 	background-size: 960px 492px;
 }
 

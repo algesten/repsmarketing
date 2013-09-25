@@ -52,7 +52,8 @@ abbr,acronym { border:0;
 
 body {
 	background-color:#ffffff;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: lighter;
 	}
 	
 .section {
@@ -72,26 +73,26 @@ h1 {
 	margin: 0 0 6px 0px;
 	text-align: center;
 	padding-top: 32px;
-	color: #20297A;
+	color: #2045a5;
 }
 
 
 h2 {
 	font-size: 22px;
 	margin: 0 0 6px 0;
-	color:#20297A;
+	color:#2045a5;
 }
 
 
 h3 {
 	font-size: 20px;
 	margin: 0 0 5px 0;
-	color: #20297A;
+	color: #2045a5;
 }
 
 h4 {
 	font-size: 19px;
-	color: #20297A;
+	color: #2045a5;
 	margin: 0 0 0 0px;
 }
 
@@ -246,7 +247,7 @@ a:hover {
 
 
 .bar-image {
-	background-image:url(../images/bg-hero-1.2.png);
+	background-image:url(../images/bg-hero-1.6.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 492px;
@@ -261,6 +262,7 @@ a:hover {
 .bar-image h1  {
 	padding-right: 500px;
 	padding-top: 140px;
+	font-weight: lighter;
 }
 
 .bar-image h4  {
@@ -477,7 +479,6 @@ a:hover {
 }
 
 .featurepaneltext h2 {
-	font-weight: bold;
 	margin-bottom: 3px;
 	padding-top: 110px;
 	font-size: 25px;
@@ -489,7 +490,8 @@ a:hover {
 
 .featurepaneltext h3 {
 	margin-bottom: 15px;
-	font-size: 22px;
+	font-size: 20px;
+	color: #8a8d99;
 }
 
 .featurepaneltext p {
@@ -506,7 +508,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: center right;
 	padding: 0px 20px 0px 0px;
-	color: #20297a;
+	color: #2045a5;
 }
 
 .featurepanelimagemobile {
@@ -559,7 +561,7 @@ a:hover {
 .ataglancepanelwhite h2, .ataglancepanelgrey h2, .ataglancepaneltop h2 {
 	font-size: 17px;
 	color: #999999;
-	font-weight: bold;
+	font-weight: lighter;
 	padding-top: 35px;
 }
 
@@ -571,7 +573,7 @@ a:hover {
 
 .ataglancepanelwhite h4, .ataglancepanelgrey h4, .ataglancepaneltop h4 {
 	font-size: 13px;
-	font-weight: bold;
+	font-weight: lighter;
 }
 
 .ataglancepanelwhite p, .ataglancepanelgrey p, .ataglancepaneltop p {
@@ -769,7 +771,7 @@ a:hover {
 
 .programpanel h3 {
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: lighter;
 }
 
 .programimage {
@@ -809,7 +811,7 @@ a:hover {
 }
 
 p.programpanellink {
-	color: #20297a;
+	color: #2045a5;
 	margin-top: 10px;
 	width: auto;
 	padding-left: 12px;
