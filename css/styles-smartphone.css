@@ -486,6 +486,10 @@
 	clear: none;
 }
 
+#viewprogramsmobilehide {
+	display: none;
+}
+
 /** SCREEENSHOTS
 ------------------------------*/
 
