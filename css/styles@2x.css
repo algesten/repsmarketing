@@ -454,6 +454,29 @@ p.programpanellink {
 	background-size: 151px 259px;
 }
 
+/** SUPPORT
+------------------------------*/
+
+.faqpanel {
+	background-image: url(../images/faqpanel-top@2x.png);
+	background-size: 960px 143px;
+}
+
+.faqpanel .panelbottom {
+	background-image: url(../images/faqpanel-bottom@2x.png);
+	background-size: 960px 17px;
+}
+
+.faqpanel a {
+	background-image: url(../images/bullet-faq@2x.png);
+	background-position: left center;
+	background-size: 28px 28px;
+}
+
+.faqpanel a:hover {
+	background-image: url(../images/bullet-faq-selected@2x.png);
+}
+
 /** FOOTER
 ------------------------------*/
 

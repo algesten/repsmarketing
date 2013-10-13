@@ -533,6 +533,54 @@
 }
 
 
+/** SUPPORT
+------------------------------*/
+
+.faqpanel {
+	background-image: url(../images/faqpanel-top-mobile@2x.png);
+	background-repeat:no-repeat;
+	background-color: #e4e5e6;
+	background-position: left top;
+	background-size: 280px 148px;
+	width: 280px;
+	margin-bottom: 20px;
+}
+
+.faqpanel .panelbottom {
+	width: 280px;
+	height: 12px;
+	background-image: url(../images/faqpanel-bottom-mobile@2x.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+	background-size: 280px 12px;
+	clear: left;
+}
+
+
+.faqpanel .leftcolumn, .faqpanel .rightcolumn {
+    float: none;
+}
+
+.faqpanel .rightcolumn {
+    padding-top: 0px;
+}
+
+.faqpanel li {
+	font-size: 16px;
+	width: 240px;
+	font-size: 16px;
+}
+
+.faqpanel a {
+    width: 200px;
+}
+
+.faqpanel li div {
+	font-size: 13px;
+	width: 200px;
+	padding-left: 45px;
+	padding-top: 10px;
+}
 
 /** FOOTER
 ------------------------------*/
