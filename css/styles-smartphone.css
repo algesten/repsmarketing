@@ -546,22 +546,30 @@
 	margin-bottom: 20px;
 }
 
-.faqpanel .panelbottom {
+.faqpanel .panelbottom, .socialpanel .panelbottom {
 	width: 280px;
 	height: 12px;
-	background-image: url(../images/faqpanel-bottom-mobile@2x.png);
 	background-repeat:no-repeat;
 	background-position: left top;
 	background-size: 280px 12px;
 	clear: left;
 }
 
+.faqpanel .panelbottom {
+    background-image: url(../images/faqpanel-bottom-mobile@2x.png);
+}
 
-.faqpanel .leftcolumn, .faqpanel .rightcolumn {
+.socialpanel .panelbottom { 
+    background-image: url(../images/socialpanel-bottom-mobile@2x.png);
+}
+	
+
+
+.faqpanel .leftcolumn, .faqpanel .rightcolumn, .socialpanel .leftcolumn, .socialpanel .rightcolumn {
     float: none;
 }
 
-.faqpanel .rightcolumn {
+.faqpanel .rightcolumn, .socialpanel .rightcolumn {
     padding-top: 0px;
 }
 
@@ -581,6 +589,37 @@
 	padding-left: 45px;
 	padding-top: 10px;
 }
+
+.socialpanel {
+	background-image: url(../images/socialpanel-top-mobile@2x.png);
+	width: 280px;
+	background-size: 280px 900px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.socialpanel .leftcolumn, .socialpanel .rightcolumn {
+    width: 240px;
+    float: none;
+    margin-top: 0px;
+}
+
+.socialpanel .leftcolumn {
+	padding-top: 20px;
+}
+
+.socialpanel .leftcolumn {
+	border-right: none;
+}
+
+#facebookiframe {
+    width: 240px;
+}
+
+.socialheader {
+	width: 200px;
+}
+
 
 /** FOOTER
 ------------------------------*/

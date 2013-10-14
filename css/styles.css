@@ -1120,7 +1120,7 @@ p.programpanellink {
 	background-color: #e4e5e6;
 	background-position: left top;
 	width: 960px;
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 }
 
 .faqpanel .leftcolumn, .faqpanel .rightcolumn {
@@ -1166,6 +1166,68 @@ p.programpanellink {
 	padding-left: 45px;
 	color: #666666;
 	display: none;
+}
+
+.socialpanel {
+	background-image: url(../images/socialpanel-top.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+	width: 960px;
+	margin-bottom: 80px;
+}
+
+.socialpanel .leftcolumn, .socialpanel .rightcolumn {
+	margin-top: 23px;
+	float: left;
+	margin-left: 20px;
+	width: 445px;
+}
+
+.socialpanel .leftcolumn {
+	border-right: 1px solid #6e6e6e;
+}
+
+.socialpanel .panelbottom {
+	width: 960px;
+	height: 18px;
+	background-image: url(../images/socialpanel-bottom.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+	clear: left;
+}
+
+.socialheader {
+	color: #2045a5;
+	font-size: 18px;
+	height: 26px;
+	width: 361px;
+	padding-top: 3px;
+	padding-left: 39px;
+	margin-bottom: 20px;
+}
+
+#facebookheader {
+	background-image: url(../images/social-icon-facebook.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+
+#twitterheader {
+	background-image: url(../images/social-icon-twitter.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+
+.socialpanel p {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+#facebookiframe {
+	border:none; 
+	overflow:hidden; 
+	width:425px; 
+	height:290px;
 }
 
 /** FOOTER

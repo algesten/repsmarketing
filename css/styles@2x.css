@@ -477,6 +477,26 @@ p.programpanellink {
 	background-image: url(../images/bullet-faq-selected@2x.png);
 }
 
+.socialpanel {
+	background-image: url(../images/socialpanel-top@2x.png);
+	background-size: 960px 600px;
+}
+
+.socialpanel .panelbottom {
+	background-image: url(../images/socialpanel-bottom@2x.png);
+	background-size: 960px 18px;	
+}
+
+#facebookheader {
+	background-image: url(../images/social-icon-facebook@2x.png);
+	background-size: 29px 29px;
+}
+
+#twitterheader {
+	background-image: url(../images/social-icon-twitter@2x.png);
+	background-size: 29px 29px;
+}
+
 /** FOOTER
 ------------------------------*/
 
