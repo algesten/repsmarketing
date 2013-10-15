@@ -1173,7 +1173,7 @@ p.programpanellink {
 	background-repeat:no-repeat;
 	background-position: left top;
 	width: 960px;
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 }
 
 .socialpanel .leftcolumn, .socialpanel .rightcolumn {
@@ -1230,6 +1230,49 @@ p.programpanellink {
 	height:290px;
 }
 
+.twocolumnsupport .leftcolumn, .twocolumnsupport .rightcolumn {
+	float: left;
+	width: 441px;
+}
+
+.twocolumnsupport .rightcolumn {
+	margin-left: 70px;
+}
+
+.twocolumnpanel {
+	background-image: url(../images/socialtwocolpanel-top.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+	background-color: #e3e4e5;
+	width: 441px;
+	margin-bottom: 20px;
+}
+
+.twocolumnpanel .innercontainer {
+	min-height: 259px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.twocolumnpanelbottom {
+	clear: left;
+	width: 441px;
+	height: 11px;
+	background-image: url(../images/socialtwocolpanel-bottom.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+
+.graham {
+	float: left;
+	width: 105px;
+	height: 257px;
+	background-image: url(../images/graham.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
 /** FOOTER
 ------------------------------*/
 
@@ -1243,10 +1286,6 @@ p.programpanellink {
 
 #footer .section-innerx {
 	padding: 50px 0;
-	background-image: url(../images/bicepscurl2.png);
-	background-position: bottom right;
-	background-repeat: no-repeat;
-	min-height: 200px;
 }
 
 #footer p {
@@ -1268,4 +1307,5 @@ p.programpanellink {
 
 .startlegals {
 	margin-top: 20px;
+	clear: left;
 }

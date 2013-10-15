@@ -620,6 +620,38 @@
 	width: 200px;
 }
 
+.twocolumnpanel {
+	background-image: url(../images/socialtwocolpanel-top-mobile.png);
+	width: 280px;
+	background-size: 280px 1000px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.graham {
+	float: left;
+	width: 72px;
+	height: 128px;
+	background-size: 52px 128px;
+}
+
+.twocolumnsupport h4 {
+    clear: left;
+}
+
+.twocolumnpanelbottom {
+	clear: left;
+	width: 280px;
+	height: 11px;
+	background-image: url(../images/socialtwocolpanel-bottom-mobile.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+	background-size: 280px 11px;
+}
+
+.twocolumnsupport .rightcolumn {
+	margin-left: 0px;
+}
 
 /** FOOTER
 ------------------------------*/

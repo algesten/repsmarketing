@@ -497,6 +497,21 @@ p.programpanellink {
 	background-size: 29px 29px;
 }
 
+.twocolumnpanel {
+	background-image: url(../images/socialtwocolpanel-top@2x.png);
+	background-size: 441px 269px;
+}
+
+.twocolumnpanelbottom {
+	background-image: url(../images/socialtwocolpanel-bottom@2x.png);
+	background-size: 441px 11px;
+}
+
+.graham {
+	background-image: url(../images/graham@2x.png);
+	background-size: 95px 256px;
+}
+
 /** FOOTER
 ------------------------------*/
 
