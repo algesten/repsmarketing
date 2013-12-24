@@ -525,7 +525,7 @@ a:hover {
 ------------------------------*/
 
 .ataglancepaneltop {
-	height: 288px;
+	height: 340px;
 	width: auto;
 	background-image: url(../images/bg-featurepanel.png);
 	background-repeat: repeat-x;
@@ -542,7 +542,14 @@ a:hover {
 	background-color: #f8f8f8;
 }
 
-.ataglancepanelshadow, .ataglancepanelnoshadow {
+.ataglancepanelshadow {
+	height: 288px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ataglancepanelnoshadow {
 	height: 412px;
 	width: 960px;
 	margin-left: auto;
@@ -600,6 +607,18 @@ a:hover {
 	background-repeat:no-repeat;
 }
 
+#itemalarms {
+	background-image:url(../images/icon-item-restalarm.png);
+	background-position: left top;
+	background-repeat:no-repeat;
+}
+
+#itemprogress {
+	background-image:url(../images/icon-item-progress.png);
+	background-position: left top;
+	background-repeat:no-repeat;
+}
+
 #itemsettings {
 	background-image:url(../images/icon-item-settings.png);
 	background-position: left top;
@@ -608,6 +627,12 @@ a:hover {
 
 #itemcardio {
 	background-image:url(../images/icon-item-cardio.png);
+	background-position: left top;
+	background-repeat:no-repeat;
+}
+
+#itemthumbnails {
+	background-image:url(../images/icon-item-thumbnails.png);
 	background-position: left top;
 	background-repeat:no-repeat;
 }

@@ -134,6 +134,16 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-size: 43px 43px;
 }
 
+#itemalarms {
+	background-image:url(../images/icon-item-restalarm@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemprogress {
+	background-image:url(../images/icon-item-progress@2x.png);
+	background-size: 43px 43px;
+}
+
 #itemsettings {
 	background-image:url(../images/icon-item-settings@2x.png);
 	background-size: 43px 43px;
@@ -141,6 +151,11 @@ only screen and (min-device-pixel-ratio: 2) {
 
 #itemcardio {
 	background-image:url(../images/icon-item-cardio@2x.png);
+	background-size: 43px 43px;
+}
+
+#itemthumbnails {
+	background-image:url(../images/icon-item-thumbnails@2x.png);
 	background-size: 43px 43px;
 }
 
