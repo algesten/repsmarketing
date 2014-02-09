@@ -408,7 +408,7 @@ a:hover {
 #featureresttimers {
 	background-image: url(../images/featurepanel-resttimers.png);
 	background-repeat: no-repeat;
-	background-position: bottom left;
+	background-position: bottom right;
 }
 
 #featureexercisemanual {
@@ -472,8 +472,12 @@ a:hover {
 }
 
 #textpanelweights {
-	padding-right: 40px;
-	width: 503px;
+	width: 449px;
+	margin-left: 40px;
+}
+
+#textpanelweights h2 {
+	padding-top: 80px;
 }
 
 .featurepaneltext h2 {
@@ -668,6 +672,12 @@ a:hover {
 }
 
 #itemshare {
+	background-image:url(../images/icon-item-share.png);
+	background-position: left top;
+	background-repeat:no-repeat;
+}
+
+#itemshareworkout {
 	background-image:url(../images/icon-item-share.png);
 	background-position: left top;
 	background-repeat:no-repeat;

@@ -189,6 +189,11 @@ only screen and (min-device-pixel-ratio: 2) {
 	background-size: 43px 43px;
 }
 
+#itemshareworkout {
+	background-image:url(../images/icon-item-share@2x.png);
+	background-size: 43px 43px;
+}
+
 #itemsearch {
 	background-image:url(../images/icon-item-search@2x.png);
 	background-size: 43px 43px;

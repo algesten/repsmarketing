@@ -169,7 +169,7 @@
 	float: none;
 }
 
-.featurepaneltext h2 {
+.featurepaneltext h2, #textpanelweights h2 {
 	font-weight: bold;
 	margin-bottom: 3px;
 	padding-top: 20px;
@@ -443,7 +443,8 @@
 	height: auto;
 	background-image: none;
 	background-color: #ececec;
-	margin-top: 290px;
+	margin-top: 320px;
+	margin-bottom: 0px;
 	padding: 0px;
 }
 
