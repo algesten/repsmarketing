@@ -137,6 +137,14 @@ li span {
 	border: none;
 }
 
+#americanthumbnail {
+	background-image: url(../images/thumbnail-american@2x.png);
+}
+
+#metricthumbnail {
+	background-image: url(../images/thumbnail-metric@2x.png);
+}
+
 #wholebodythumbnail {
 	background-image: url(../images/thumbnail-wholebody@2x.png);
 }
