@@ -246,7 +246,7 @@ a:hover {
 
 
 .bar-image {
-	background-image:url(../images/bg-hero-1.6.png);
+	background-image:url(../images/bg-hero-1.10.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 492px;
@@ -783,6 +783,7 @@ a:hover {
 	float: left;
 	padding: 12px;
 	margin-right: 12px;
+	cursor: pointer;
 }
 
 .programpanel:hover {
@@ -1030,6 +1031,52 @@ p.programpanellink {
 /** SCREEENSHOTS
 ------------------------------*/
 
+.screenshottabs {
+	width: 408px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.screenshottabs a {
+	display: block;
+	float: left;
+	width: 136px;
+	height: 35px;
+	font-size: 1000px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#sixscreenshottab6 {
+	background: url(../images/tab-screenshot-6-active.png) left top no-repeat;
+}
+
+#fivescreenshottab5 {
+	background: url(../images/tab-screenshot-5-active.png) left top no-repeat;
+}
+
+#sixplusscreenshottab6plus {
+	background: url(../images/tab-screenshot-6plus-active.png) left top no-repeat;
+}
+
+#sixplusscreenshottab6, #fivescreenshottab6 {
+	background: url(../images/tab-screenshot-6-passive.png) left top no-repeat;
+}
+
+#sixscreenshottab6plus, #fivescreenshottab6plus {
+	background: url(../images/tab-screenshot-6plus-passive.png) left top no-repeat;
+}
+
+#sixscreenshottab5, #sixplusscreenshottab5 {
+	background: url(../images/tab-screenshot-5-passive.png) left top no-repeat;
+}
+
+#screenshotstabsixplus, #screenshotstabfive {
+	display: none;
+}
+
 .screenshots {
 	background-image:url(../images/bg-screen.png);
 	background-position:center bottom;
@@ -1067,11 +1114,6 @@ p.programpanellink {
 	font-size: 14px;
 }
 
-.screenshots #screen-chart {
-	width: 268px;
-	height: 151px;
-}
-
 .screenshots a {
 	width: 151px;
 	height: 259px;
@@ -1081,6 +1123,15 @@ p.programpanellink {
     -moz-box-shadow: 0px 0px 5px #888;
     -webkit-box-shadow: 0px 0px 5px #888;
     box-shadow: 0px 0px 5px #888;
+}
+
+#screenshotstabsix .screenshots a, #screenshotstabsixplus .screenshots a {
+	height: 269px;
+}
+
+.screenshots #screen-chart, #screenshotstabsix #screen-six-chart, #screenshotstabsixplus #screen-sixplus-chart {
+	width: 268px;
+	height: 151px;
 }
 
 #screen-home {
@@ -1138,6 +1189,116 @@ p.programpanellink {
 	background-repeat: no-repeat;
 }
 
+#screen-six-home {
+	background-image: url(../images/screen1-home-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-workout {
+	background-image: url(../images/screen2-workout-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-supersets {
+	background-image: url(../images/screen3-supersets-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-weightselector {
+	background-image: url(../images/screen4-weightselector-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-exercisesearch {
+	background-image: url(../images/screen5-exercise-search-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-exercise {
+	background-image: url(../images/screen6-exercise-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-kettlebells {
+	background-image: url(../images/bscreen1-kettlebells-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-weightstack {
+	background-image: url(../images/bscreen2-weight-stack-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-chart {
+	background-image: url(../images/bscreen3-chart-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-exercises {
+	background-image: url(../images/bscreen4-exercise-search-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-six-dataexport {
+	background-image: url(../images/bscreen5-program-history-iphone6.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-home {
+	background-image: url(../images/screen1-home-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-workout {
+	background-image: url(../images/screen2-workout-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-supersets {
+	background-image: url(../images/screen3-supersets-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-weightselector {
+	background-image: url(../images/screen4-weightselector-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-exercisesearch {
+	background-image: url(../images/screen5-exercise-search-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-exercise {
+	background-image: url(../images/screen6-exercise-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-kettlebells {
+	background-image: url(../images/bscreen1-kettlebells-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-weightstack {
+	background-image: url(../images/bscreen2-weight-stack-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-chart {
+	background-image: url(../images/bscreen3-chart-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-exercises {
+	background-image: url(../images/bscreen4-exercise-search-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
+#screen-sixplus-dataexport {
+	background-image: url(../images/bscreen5-program-history-iphone6plus.png);
+	background-repeat: no-repeat;
+}
+
 
 
 /** SUPPORT
@@ -1189,6 +1350,7 @@ p.programpanellink {
 	min-height: 23px;
 	width: 400px;
 	padding-top: 5px;
+	cursor: pointer;
 }
 
 .faqpanel a:hover {

@@ -33,7 +33,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 .bar-image {
-	background-image:url(../images/bg-hero-1.6@2x.png);
+	background-image:url(../images/bg-hero-1.10@2x.png);
 	background-size: 960px 492px;
 }
 
@@ -409,6 +409,37 @@ p.programpanellink {
 /** SCREEENSHOTS
 ------------------------------*/
 
+#sixscreenshottab6 {
+	background: url(../images/tab-screenshot-6-active@2x.png) left top no-repeat;
+	background-size: 136px 35px;
+}
+
+#fivescreenshottab5 {
+	background: url(../images/tab-screenshot-5-active@2x.png) left top no-repeat;
+	background-size: 136px 35px;
+}
+
+#sixplusscreenshottab6plus {
+	background: url(../images/tab-screenshot-6plus-active@2x.png) left top no-repeat;
+	background-size: 136px 35px;
+}
+
+#sixplusscreenshottab6, #fivescreenshottab6 {
+	background: url(../images/tab-screenshot-6-passive@2x.png) left top no-repeat;
+	background-size: 136px 35px;
+}
+
+#sixscreenshottab6plus, #fivescreenshottab6plus {
+	background: url(../images/tab-screenshot-6plus-passive@2x.png) left top no-repeat;
+	background-size: 136px 35px;
+}
+
+#sixscreenshottab5, #sixplusscreenshottab5 {
+	background: url(../images/tab-screenshot-5-passive@2x.png) left top no-repeat;
+	background-size: 136px 35px;
+}
+
+
 .screenshots {
 	background-image:url(../images/bg-screen@2x.png);
 	background-size: 4px 629px;
@@ -473,6 +504,119 @@ p.programpanellink {
 	background-image: url(../images/bscreen5-program-history@2x.png);
 	background-size: 151px 259px;
 }
+
+#screen-six-home {
+	background-image: url(../images/screen1-home-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-workout {
+	background-image: url(../images/screen2-workout-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-supersets {
+	background-image: url(../images/screen3-supersets-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-weightselector {
+	background-image: url(../images/screen4-weightselector-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-exercisesearch {
+	background-image: url(../images/screen5-exercise-search-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-exercise {
+	background-image: url(../images/screen6-exercise-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-kettlebells {
+	background-image: url(../images/bscreen1-kettlebells-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-weightstack {
+	background-image: url(../images/bscreen2-weight-stack-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-chart {
+	background-image: url(../images/bscreen3-chart-iphone6@2x.png);
+	background-size: 269px 151px;
+}
+
+#screen-six-exercises {
+	background-image: url(../images/bscreen4-exercise-search-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-six-dataexport {
+	background-image: url(../images/bscreen5-program-history-iphone6@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-home {
+	background-image: url(../images/screen1-home-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-workout {
+	background-image: url(../images/screen2-workout-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-supersets {
+	background-image: url(../images/screen3-supersets-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-weightselector {
+	background-image: url(../images/screen4-weightselector-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-exercisesearch {
+	background-image: url(../images/screen5-exercise-search-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-exercise {
+	background-image: url(../images/screen6-exercise-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-kettlebells {
+	background-image: url(../images/bscreen1-kettlebells-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-weightstack {
+	background-image: url(../images/bscreen2-weight-stack-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-chart {
+	background-image: url(../images/bscreen3-chart-iphone6plus@2x.png);
+	background-size: 269px 151px;
+}
+
+#screen-sixplus-exercises {
+	background-image: url(../images/bscreen4-exercise-search-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+#screen-sixplus-dataexport {
+	background-image: url(../images/bscreen5-program-history-iphone6plus@2x.png);
+	background-size: 151px 269px;
+}
+
+
+
 
 /** SUPPORT
 ------------------------------*/
