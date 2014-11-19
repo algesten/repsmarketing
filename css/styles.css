@@ -539,10 +539,10 @@ a:hover {
 	height: 225px;
 	width: auto;
 	background-color: #ffffff;
+	clear: left;
 }
 
 .ataglancepanelgrey {
-	height: 225px;
 	background-color: #f8f8f8;
 }
 
@@ -554,7 +554,6 @@ a:hover {
 }
 
 .ataglancepanelnoshadow {
-	height: 412px;
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -741,6 +740,12 @@ a:hover {
 	background-image:url(../images/icon-item-bmi.png);
 	background-position: left top;
 	background-repeat:no-repeat;
+}
+
+.grahamclearleft {
+	clear: left;
+	height: 1px;
+	width: 1px;
 }
 
 
