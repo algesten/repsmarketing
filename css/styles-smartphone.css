@@ -515,13 +515,13 @@
 	padding-top: 20px;
 }
 
-.screen a {
+#screenshotstabsix .screen a {
 	width: 120px;
-	height: 205px;
+	height: 214px;
 }
 
 #screen-home, #screen-workout, #screen-supersets, #screen-weightselector, #screen-exercisesearch, #screen-exercise, #screen-kettlebells, #screen-weightstack, #screen-exercises, #screen-dataexport {
-	background-size: 120px 205px;	
+	background-size: 120px 214px;	
 }
 
 .screenshots .clear-fix {
