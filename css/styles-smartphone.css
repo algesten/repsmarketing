@@ -494,6 +494,11 @@
 /** SCREEENSHOTS
 ------------------------------*/
 
+#screenshotstabsix .screenshottabs {
+	display: none;
+}
+
+
 .screenshots {
     background-image:url(../images/bg-featurepanelshadow-mobile.png);
 	background-size: 320px 54px;
