@@ -1511,3 +1511,25 @@ p.programpanellink {
 	margin-top: 20px;
 	clear: left;
 }
+
+
+/** WATCH
+------------------------------*/
+
+#watch {
+	background-image:url(../images/watch-banner-background.png);
+	background-position: center bottom;
+	background-repeat:repeat-x;
+	height: 232px;
+}
+
+#watch a {
+	display: block;
+	width: 960px;
+	height: 232px;
+	background: url(../images/watch-banner.png) center top no-repeat;
+}
+
+#watch a span {
+	display: none;
+}

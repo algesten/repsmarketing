@@ -685,4 +685,24 @@ p.programpanellink {
 	background-size: 236px 377px;
 }
 
+/** WATCH
+------------------------------*/
+
+#watch {
+	background-image:url(../images/watch-banner-background@2x.png);
+	background-size: 10px 232px;
+}
+
+#watch a {
+	display: block;
+	width: 960px;
+	height: 232px;
+	background-image: url(../images/watch-banner@2x.png);
+	background-size: 960px 232px;
+}
+
+#watch a span {
+	display: none;
+}
+
 }

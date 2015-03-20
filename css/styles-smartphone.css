@@ -686,4 +686,20 @@
 	font-size: 12px;
 }
 
+/** WATCH
+------------------------------*/
+
+
+#watch a {
+	display: block;
+	width: 320px;
+	height: 184px;
+	background-image: url(../images/watch-banner-iphone.png);
+	background-size: 320px 184px;
+}
+
+#watch {
+	height: 184px;
+}
+
 }
