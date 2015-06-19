@@ -1533,3 +1533,52 @@ p.programpanellink {
 #watch a span {
 	display: none;
 }
+
+
+/** PRIVACY POLICY
+------------------------------*/
+
+.privacypolicy {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.privacypolicy h1 {
+	text-align: left;
+	margin-bottom: 10px;
+	font-size: 18pt;
+}
+
+.privacypolicy h2 {
+	font-size: 14pt;
+	margin-top: 20px;
+}
+
+.privacypolicy p {
+	color: #666666;
+	margin-bottom: 5px;
+	font-size: 11pt;
+	line-height: 14pt;
+}
+
+.privacypolicy a {
+	color: #666666;
+	text-decoration: underline;
+}
+
+.privacypolicy em {
+	font-style: italic;
+}
+
+.privacypolicy li {
+	color: #666666;
+	font-size: 11pt;
+	line-height: 14pt;
+}
+
+.privacypolicy ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	list-style-type: disc;
+	margin-left: 20px;
+}
