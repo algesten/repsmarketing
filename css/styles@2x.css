@@ -27,24 +27,20 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 #hero {
-	background-image:url(../images/bg-hero@2x.png);
-	background-size: 100% 492px;
+    background-image:url(../images/bg-hero@2x.png);
+	background-size: 100% 406px;
 }
 
 
 .bar-image {
-	background-image:url(../images/bg-hero-1.10@2x.png);
-	background-size: 960px 492px;
+	background-image:url(../images/bg-hero-2.0@2x.png);
+	background-size: 960px 406px;
 }
 
 .watch-button a, .watch-button a:visited {
-	background-image:url(../images/button-watch-01@2x.png);
-	background-size: 104px 138px;
 }
 
 .buy-button a, .buy-button a:visited {
-	background-image:url(../images/button-buy@2x.png);
-	background-size: 119px 138px;
 }
 
 
@@ -440,11 +436,6 @@ p.programpanellink {
 }
 
 
-.screenshots {
-	background-image:url(../images/bg-screen@2x.png);
-	background-size: 4px 629px;
-}
-
 .screenshots .section-inner {
 	background-image:url(../images/bg-screen-shadow@2x.png);
 	background-size: 960px 128px;
@@ -616,20 +607,34 @@ p.programpanellink {
 }
 
 
+/** PREMIUM
+------------------------------*/
+
+#premiumpanel {
+	background: url(../images/premium-logo@2x.png) center top no-repeat;
+	background-size: 146px 129px;
+	padding-top: 150px;
+	margin-top: 20px;
+}
+
+#premium-watch {
+	background: left top no-repeat url(../images/premium-watch@2x.png);
+}
+
+#premium-exercises {
+	background: left top no-repeat url(../images/premium-exercises@2x.png);
+}
+
+#premium-trial {
+	background: left top no-repeat url(../images/premium-trial@2x.png);
+}
+
 
 
 /** SUPPORT
 ------------------------------*/
 
-.faqpanel {
-	background-image: url(../images/faqpanel-top@2x.png);
-	background-size: 960px 143px;
-}
 
-.faqpanel .panelbottom {
-	background-image: url(../images/faqpanel-bottom@2x.png);
-	background-size: 960px 17px;
-}
 
 .faqpanel a {
 	background-image: url(../images/bullet-faq@2x.png);
@@ -641,16 +646,6 @@ p.programpanellink {
 	background-image: url(../images/bullet-faq-selected@2x.png);
 }
 
-.socialpanel {
-	background-image: url(../images/socialpanel-top@2x.png);
-	background-size: 960px 600px;
-}
-
-.socialpanel .panelbottom {
-	background-image: url(../images/socialpanel-bottom@2x.png);
-	background-size: 960px 18px;	
-}
-
 #facebookheader {
 	background-image: url(../images/social-icon-facebook@2x.png);
 	background-size: 29px 29px;
@@ -659,16 +654,6 @@ p.programpanellink {
 #twitterheader {
 	background-image: url(../images/social-icon-twitter@2x.png);
 	background-size: 29px 29px;
-}
-
-.twocolumnpanel {
-	background-image: url(../images/socialtwocolpanel-top@2x.png);
-	background-size: 441px 269px;
-}
-
-.twocolumnpanelbottom {
-	background-image: url(../images/socialtwocolpanel-bottom@2x.png);
-	background-size: 441px 11px;
 }
 
 .graham {
