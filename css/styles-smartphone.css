@@ -73,7 +73,7 @@
 	width: 294px;
 	height: 27px;
 	padding-top: 5px;
-	border-bottom: 1px solid #615ca1;
+	border-bottom: 1px solid #999999;
 }
 
 .menu-item a {
@@ -186,14 +186,7 @@
 	font-size: 14px;
 }
 
-.featurepanelshadow {
-	background-image: url(../images/bg-featurepanelshadow-mobile.png);
-	background-size: 320px 154px;
-	width: auto;
-	margin: 0px;
-	height: auto;
-	background-color: #ffffff;
-}
+
 
 .featurepanel {
 	height: auto;
@@ -203,75 +196,6 @@
 	display: block;
 }
 
-#featuretodosmobile {
-	background-image: url(../images/featurepanel-todolist-mobile.png);
-	background-size: 189px 222px;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	height: 232px;
-}
-
-#featureweightselectormobile {
-	background-image: url(../images/featurepanel-visualweightselectors-mobile.png);
-	background-size: 247px 222px;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	height: 222px;
-}
-
-#featureresttimermobile {
-	background-image: url(../images/featurepanel-resttimer-mobile.png);
-	background-size: 189px 222px;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	height: 232px;
-}
-
-#featureexercisemanualmobile {
-	background-image: url(../images/featurepanel-exercisemanual-mobile.png);
-	background-size: 247px 222px;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	height: 222px;
-}
-
-#featuremeasurementsmobile {
-	background-image: url(../images/featurepanel-measurements-mobile.png);
-	background-size: 247px 222px;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	height: 222px;
-}
-
-#featuresharemobile {
-	background-image: url(../images/featurepanel-share-mobile.png);
-	background-size: 280px 134px;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 222px;
-}
-
-
-
-#featureehistorymobile {
-	background-image: url(../images/featurepanel-history-mobile.png);
-	background-size: 280px 160px;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 222px;
-}
-
-#featuretextexercisemanual, #textpanelweights {
-	padding-right: 0px;
-}
-
-.shareicons {
-	float: none;
-}
-
-#featuretextshare h2, #featuretexthistory h2 {
-	padding-top: 20px;
-}
 
 
 /** AT A GLANCE
@@ -280,12 +204,6 @@
 .ataglancepaneltop, .ataglancepanelgrey, .ataglancepanelwhite {
 	height: auto;
 	clear: left;
-}
-
-.ataglancepaneltop {
-	background-image: url(../images/bg-featurepanelshadow-mobile.png);
-	background-size: 320px 154px;
-	background-position: center top;
 }
 
 .ataglancepanelshadow, .ataglancepanelnoshadow {
@@ -322,175 +240,6 @@
 
 
 
-/** WORKOUT PROGRAMS
-------------------------------*/
-
-
-.workoutprogrampanel {
-	width: auto;
-	padding: 0px;
-}
-
-.programsheader {
-	padding: 10px;
-}
-
-.programsheader h2 {
-	padding: 0px;
-}
-
-.workoutprogramcolumn {
-	width: auto;
-	padding: 0px 0px 10px 0px;
-	font-size: 14px;
-	line-height: 18px;
-	float: none;
-}
-
-.programpanel p {
-	display: none;
-}
-
-.programpanel {
-	display: block;
-	width: 116px;
-	height: 79px;
-	background-image: url(../images/programpanel-mobile.png);
-	background-size: 140px 91px;
-	background-position: top left;
-	background-repeat: no-repeat;
-	float: left;
-	padding: 12px;
-	margin-right: 0px;
-	margin-bottom: 5px;
-}
-
-.programpanel:hover {
-	background-image: url(../images/programpanel-hover-mobile.png);	
-	background-size: 140px 91px;
-}
-
-#programimagebeginners, #programimagesplits, #programimagegoals, #programimagebodyareas, #programimageapproaches {
-	width: 116px;
-	height: 50px;
-	background-size: 116px 50px;
-	margin-bottom: 0px;
-}
-
-#programimagebeginners {
-	background-image: url(../images/programimage-beginner-mobile.png);
-}
-
-#programimagesplits {
-	background-image: url(../images/programimage-splits-mobile.png);
-}
-
-#programimagegoals {
-	background-image: url(../images/programimage-goals-mobile.png);
-}
-
-#programimagebodyareas {
-	background-image: url(../images/programimage-bodyareas-mobile.png);
-}
-
-#programimageapproaches {
-	background-image: url(../images/programimage-approaches-mobile.png);
-}
-
-.programpanel h3 {
-	margin-top: 4px;
-}
-
-.programpanelgroup {
-	height: 500px;
-	padding: 0px;
-	width: auto;
-}
-
-.programpanelgroup {
-	width: 290px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#programpanelmobileheader {
-	display: block;
-}
-
-#programpanelmobileheader:hover {
-	background-image: url(../images/programpanel-mobile.png);
-	background-size: 140px 91px;	
-}
-
-.programpanelspacer {
-	display: block;
-	width: 10px;
-	height: 91px;
-	float: left;
-	margin-bottom: 5px;
-}
-
-#programindicator1, #programindicator2, #programindicator3, #programindicator4, #programindicator5 {
-	width: auto;
-	height: 12px;
-	background-image: url(../images/programindicator-mobile.png);
-	background-size: 320px 12px;
-	background-position: center top;
-}
-
-.programdraw {
-	width: auto;
-	height: auto;
-	background-image: none;
-	background-color: #ececec;
-	margin-top: 320px;
-	margin-bottom: 0px;
-	padding: 0px;
-}
-
-.programdrawinner {
-	width: auto;
-	height: auto;
-	padding: 0px;
-}
-
-#programdrawbeginners .illustration {
-	display: none;
-}
-
-#programdrawbeginners {
-	width: auto;
-}
-
-#programdrawbeginners h2, #programdrawbeginners h3, #programdrawbeginners p {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-#programdrawbeginners h2, #programdrawsplits h2, #programdrawbodyareas h2, #programdrawgoals h2, #programdrawapproaches h2 {
-	padding-top: 10px;
-	padding-left: 10px;
-}
-
-.programdrawbuttons {
-	padding-left: 10px;
-	padding-bottom: 10px;
-}
-
-.programdrawthreecolumn {
-	width: auto;
-	float: none;
-	padding: 0px 10px 10px 10px;
-}
-
-#drawclear {
-	clear: none;
-}
-
-#viewprogramsmobilehide {
-	display: none;
-}
-
 /** SCREEENSHOTS
 ------------------------------*/
 
@@ -500,10 +249,6 @@
 
 
 .screenshots {
-    background-image:url(../images/bg-featurepanelshadow-mobile.png);
-	background-size: 320px 54px;
-	background-position:center top;
-	background-repeat:no-repeat;
 	padding-top: 0px;
 }
 
@@ -543,11 +288,6 @@
 ------------------------------*/
 
 .faqpanel {
-	background-image: url(../images/faqpanel-top-mobile@2x.png);
-	background-repeat:no-repeat;
-	background-color: #e4e5e6;
-	background-position: left top;
-	background-size: 280px 148px;
 	width: 280px;
 	margin-bottom: 20px;
 }
@@ -559,14 +299,6 @@
 	background-position: left top;
 	background-size: 280px 12px;
 	clear: left;
-}
-
-.faqpanel .panelbottom {
-    background-image: url(../images/faqpanel-bottom-mobile@2x.png);
-}
-
-.socialpanel .panelbottom { 
-    background-image: url(../images/socialpanel-bottom-mobile@2x.png);
 }
 	
 
@@ -597,7 +329,6 @@
 }
 
 .socialpanel {
-	background-image: url(../images/socialpanel-top-mobile@2x.png);
 	width: 280px;
 	background-size: 280px 900px;
 	margin-bottom: 20px;
@@ -627,7 +358,6 @@
 }
 
 .twocolumnpanel {
-	background-image: url(../images/socialtwocolpanel-top-mobile.png);
 	width: 280px;
 	background-size: 280px 1000px;
 	margin-bottom: 20px;
@@ -649,7 +379,6 @@
 	clear: left;
 	width: 280px;
 	height: 11px;
-	background-image: url(../images/socialtwocolpanel-bottom-mobile.png);
 	background-repeat:no-repeat;
 	background-position: left top;
 	background-size: 280px 11px;
@@ -664,10 +393,6 @@
 
 
 #footer {
-    background-image:url(../images/bg-featurepanelshadow-mobile.png);
-	background-size: 320px 54px;
-	background-position:center top;
-	background-repeat:no-repeat;
 	padding-top: 0px;	
 }
 
@@ -686,20 +411,26 @@
 	font-size: 12px;
 }
 
-/** WATCH
+/** THREE COLUMN GRID
 ------------------------------*/
 
 
-#watch a {
-	display: block;
-	width: 320px;
-	height: 184px;
-	background-image: url(../images/watch-banner-iphone.png);
-	background-size: 320px 184px;
+.threecolumngrid {
+	width: 100%;
 }
 
-#watch {
-	height: 184px;
+.threecolumngrid .column {
+	width: 100%;
 }
 
+#premiumpanel {
+	width: 100%;
+}
+
+#overviewpanel {
+	width: 100%;
+}
+
+.mobileclear {
+	clear: both;
 }
