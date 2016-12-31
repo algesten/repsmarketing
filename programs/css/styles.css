@@ -149,6 +149,10 @@ li span {
 	background-image: url(../images/thumbnail-wholebody@2x.png);
 }
 
+#cultfitthumbnail {
+	background-image: url(../images/thumbnail-cultfit@2x.png);
+}
+
 #twodaysplitthumbnail {
 	background-image: url(../images/thumbnail-2daysplit@2x.png);
 }
@@ -209,6 +213,10 @@ li span {
 	background-position: 12px 12px;
 	background-repeat: no-repeat;
 	min-height: 112px;
+}
+
+#cultfitdescription {
+	background-image: url(../images/image-cultfit@2x.png);
 }
 
 #wholbodyprogramdescription {
